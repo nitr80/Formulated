@@ -1,0 +1,1653 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Formulated</string>
+
+    //bottombar menu
+    <string name="home_page">Ana Sayfa</string>
+    <string name="search_page">Ara</string>
+    <string name="formula">Formüller</string>
+    <string name="lists_page">Listeler</string>
+    <string name="calculate_page">Hesap Makinesi</string>
+    <string name="profile_page">Profil</string>
+
+    //screens
+    <string name="unit_conversion">Birim Dönüştürücü</string>
+    <string name="tool_list">Araç Listesi</string>
+    <string name="solution">Çözüm</string>
+    <string name="formula_list_in_list_screen">Formül Listeleri</string>
+    <string name="add_list">Liste Ekle</string>
+    <string name="info">Bilgi</string>
+    <string name="add_formula_for_new_list">Formül Ekle</string>
+    <string name="add_to_list">Listeye Ekle</string>
+    <string name="subscription">Abonelik</string>
+
+    //subjects
+    <string name="maths">Matematik</string>
+    <string name="chemistry">Kimya</string>
+    <string name="physics">Fizik</string>
+    <string name="general">Genel</string>
+
+    /Premium
+    <string name="sub_to_premium">Premium\'a Abone Ol</string>
+
+    //Buttons
+
+    <string name="search_formula">Formül Ara…</string>
+    <string name="calculate">Hesapla</string>    // hesapla (solution)
+    <string name="result">Sonuç</string> // result (solution)
+
+    <string name="keep_one_variable_empty">Bir değişkene değer vermeyin</string> // degiskene deder vereyin (solution)
+    <string name="enter_value_for_each_variable">Her değişkene bir değer girin</string>
+    <string name="not_a_triange_error">Girilen değerler bir üçgen oluşturamaz</string>
+
+    <string name="language">Dil</string>    // dil karanlik mod premium spinneri
+    <string name="dark_mode">Karanlık Mod</string>
+    <string name="premium">Premium</string>
+
+    <string name="radian_mode">Radyan Modu</string> // radian mode toast
+    <string name="degree_mode">Derece Modu</string>
+
+    <string name="liked_formulas">Beğenilen Formüler</string>   // begeniler (lists)
+    <string name="create_list">Yeni Liste Oluştur</string>   // liste ekle (lists)
+
+    <string name="enter_name_for_list">Listenize bir isim verin</string>   // listenize isim verin, iptal, ileri
+    <string name="cancel">İptal</string>
+    <string name="next">İleri</string>
+    <string name="enter_name_toast">Lütfen listenize bir isim girin</string>
+
+    <string name="choose_formulas">Eklemek istediğiniz formülleri seçin</string>   // eklemek isdegidiniz formulleri secin
+    <string name="create">Oluştur</string>   // olustur
+
+    <string name="delete">Sil</string>// sil
+    <string name="delete_list">Listeyi Sil</string>
+    <string name="delete_list_text">Bu listeyi silmek mi istiyorsunuz?</string>
+    <string name="formula_already_added">Bu formül bu listeye zaten eklenmiş</string>
+    <string name="select_list">Formülü eklemek istediğiniz listeyi seçin:</string>
+    <string name="formula_calculation_error_no_null">Sadece bir değişkene değer vermeyin</string>
+
+    <string name="loading">Yükleniyor…</string>
+
+    //tool listteki butonlar
+
+    //formulas and variables
+
+    //math formulas
+    
+    //Pythagorean Theorem
+    <string name="pythagorean_theorem">Pisagor Teoremi</string>
+        //side 1
+        //side 2
+        <string name="hypotenuse">c: Hipotenüs</string>
+
+    //Rectangle Area Formula
+    <string name="rectangle_area_formula">Dikdörtgen Alan Formülü</string>
+        <string name="side1">a: Kenar 1</string>
+        <string name="side2">b: Kenar 2</string>
+        <string name="area">A: Alan</string>
+
+    //Circumference of Circle
+    <string name="circumference_of_circle">Çember Çevre Formülü</string>
+        <string name="radius">r: Yarıçap</string>
+        <string name="circumference">C: Çevre</string>
+
+    //Area of Circle
+    <string name="area_of_circle">Daire Alan Formülü</string>
+        //radius
+        //area
+
+    //Surface Area of Sphere
+    <string name="surface_area_of_sphere">Küre Yüzey Alan Formülü</string>
+        //radius
+        <string name="surface_area">A: Yüzey Alanı</string>
+
+    //Volume of Sphere
+    <string name="volume_of_sphere">Küre Hacim Formülü</string>
+        //radius
+        //volume
+
+    //Sum of Interior Angles of Polygons
+    <string name="sum_of_interior_angles_of_polygons">İç Açılar Toplamı</string>
+        <string name="number_of_sides">n: Kenar Sayısı</string>
+        <string name="sum_of_interior_angles">S: İç Açıların Toplamı</string>
+
+    //Number of Diagonals
+    <string name="number_of_diagonals">Köşegen Sayısı</string>
+        //number of sides
+        <string name="number_of_diagonals_result">ND: Köşegen Sayısı</string>
+
+    //Roots of Quadratic Equation
+    <string name="roots_of_quadratic_equation">İkinci Dereceden Denklemin Kökleri</string>
+        <string name="first_coefficient">a: İlk Katsayı</string>
+        <string name="second_coefficient">b: İkinci Katsayı</string>
+        <string name="third_coefficient">c: Üçüncü Katsayı</string>
+
+    //Volume Of Rectangular Prism
+    <string name="volume_of_rectangular_prism">Dikdörtgenler Prizmasının Hacmi</string>
+        <string name="length">l : Uzunluk</string>
+        <string name="width">w: Genişlik</string>
+        <string name="height">h: Yükseklik</string>
+        //volume
+
+    //Volume Of Cylinder
+    <string name="volume_of_cylinder">Silindirin Hacmi</string>
+        //radius
+        //height
+        //volume
+
+    //Area of Triangle
+    <string name="area_of_triangle">Üçgen Alan Formülü</string>
+        <string name="base">b: Taban</string>
+        // height
+        //area
+
+    <string name="herons_formula">Heron Formülü</string>
+        <string name="side3">c: Kenar 3</string>
+        //side 2
+        //side 1
+        //area
+
+    //Permutation
+    <string name="permutation">Permutasyon</string>
+        <string name="r">r</string>
+        <string name="n">n</string>
+
+    //Combination
+    <string name="combination">Kombinasyon</string>
+        // r
+        // n
+
+    //Volume of Rectangular Pyramid
+    <string name="volume_of_pyramid">Piramidin Hacmi</string>
+        <string name="base_area">A: Taban Alanı</string>
+        //height
+        //volume
+
+    //Volume of Cone
+    <string name="volume_of_cone">Volume of Cone</string>
+    //radius
+    //height
+    //volume
+
+    //Surface Area of Cone
+    <string name="surface_area_of_cone">Koninin Yüzey Alanı</string>
+        <string name="slant_height_of_the_cone">L: Yanal Yüzeyin Yarıçapı</string>
+        //radius
+        //area
+
+    //Surface Area of Rectangular Prism
+    <string name="surface_area_of_rectangular_prism">Dikdörtgen Prizmanın Yüzey Alanı</string>
+        //side 1 2 3
+        //surface area
+
+    //Law of Cosines
+    <string name="law_of_cosines">Kosinüs Teoremi</string>
+        //side 1 2 3
+        <string name="angle_between_b_and_c">α: b ve c Arasındaki Açı</string>
+
+    //Law of Sines
+    <string name="law_of_sines">Sinüs Teoremi</string>
+        //side 1 2
+        <string name="angle1">α: Açı 1</string>
+        <string name="angle2">β: Açı 2</string>
+
+    //Double Angle Formula for Sine
+    <string name="double_angle_formula_for_sine">Sinüs Yarım Açı Formülü</string>
+        //angle 1
+
+    <string name="sum_formula_for_sine">Sinüs Toplam Formülü</string>
+        //angle 1
+        //angle 2
+
+    //Double Angle Formula for Cosine
+    <string name="double_angle_formula_for_cosine">Kosinüs Yarım Açı Formülü</string>
+        //angle 1
+
+    //Double Angle Formula for Cosine (different angle)
+    <string name="sum_formula_for_cosine">Kosinüs Toplam Formülü</string>
+        //angle 1
+        //angle 2
+
+    //Double Angle Formula for Tangent
+    <string name="double_angle_formula_for_tangent">Tanjant Yarım Açı Formülü</string>
+        //angle 1
+
+    //Double Angle Formula for Tangent (different angle)
+    <string name="sum_formula_for_tangent">Tanjant Toplam Formülü</string>
+        //angle 1
+        //angle 2
+
+    //Area of Regular Hexagon
+    <string name="area_of_regular_hexagon">Düzgün Altıgenin Alanı</string>
+        //side
+        //area
+
+    //Number of Subsets Formula
+    <string name="number_of_subsets_formula">Alt Küme Sayısı Formülü</string>
+        <string name="number_of_subsets">NS: Alt Küme Sayısı</string>
+        <string name="number_of_elements">n: Eleman Sayısı</string>
+
+    //Number of Proper Subsets Formula
+    <string name="number_of_proper_subsets_formula">Öz Alt Küme Sayısı Formülü</string>
+        <string name="number_of_proper_subsets">NPS: Öz Alt Küme Sayısı Formülü</string>
+        //no of elements
+
+    //prime factor finder
+    <string name="prime_factor_finder">Asal Çarpan Bulucu</string>
+        <string name="number">Sayı</string>
+
+    //Prime Number Checker
+    <string name="prime_number_checker">Asal Sayı Kontrol Edici</string>
+        //number
+        <string name="is_prime">Bu sayı asaldır</string>
+        <string name="is_not_prime">Bu sayı asal değildir</string>
+
+    //Positive Integer Divisor Finder
+    <string name="positive_integer_divisor_finder">Pozitif Tam Sayı Bölen Bulucu</string>
+        //number
+
+    //greatest common divisor
+    <string name="greatest_common_divisor">En Büyük Ortak Bölen (EBOB)</string>
+        <string name="number1">a: Sayı 1</string>
+        <string name="number2">b: Sayı 2</string>
+
+    //Least common multiple
+    <string name="least_common_multiple">En Küçük Ortak Kat (EKOK)</string>
+        //num1
+        //num2
+
+    //Root Calculator
+    <string name="root_calculator">Kök Hesaplayıcı</string>
+        <string name="root">y: Kök</string>
+        <string name="radicand">x: Sayı</string>                //buna bak
+        <string name="exponent">n: Kuvvet</string>
+        <string name="index">i: Derece</string>
+
+    //Triangle Inequality Calculator
+    <string name="triangle_inequality_calculator">Üçgen Eşitsizliği Hesaplayıcı</string>
+        //side 123
+        <string name="is_triangle">Bu değerlerle üçgen oluşturulabilir</string>
+        <string name="not_triangle">Bu değerlerle üçgen oluşturulamaz</string>
+
+    //Area of Equilateral Triangle
+    <string name="area_of_equilateral_triangle_formula">Eşkenar Üçgenin Alanı</string>
+        //area
+        //side1
+
+    //Factorial Formula
+    <string name="factorial_formula">Faktöriyel Formülü</string>
+        <string name="n_number">n: Sayı</string>
+
+    //cyclic permutation Formula
+    <string name="cyclic_permutation_formula">Dönel Permutasyon Formülü</string>
+    //nnumber of elements
+
+    //sum of coefficients of even-degree terms in a polynomial
+    <string name="sum_of_coefficients_of_even_degree_terms_in_polynomial">Polinomda Çift Dereceli Terimlerin Katsayıları Toplamı</string>
+
+    //sum of coefficients of even-degree terms in a polynomial
+    <string name="sum_of_coefficients_of_odd_degree_terms_in_polynomial">Polinomda Tek Dereceli Terimlerin Katsayıları Toplamı</string>
+
+    //binomial square expansion
+    <string name="second_degree_binomial_expansion">İkinci Derece Binom Açılımı</string>
+    <string name="x">x</string>
+    <string name="y">y</string>
+
+    //cubed binomial expansion
+    <string name="third_degree_binomial_expansion">Üçüncü Derece Binom Açılımı</string>
+        //x and y
+
+    //squared trinomial expansion
+    <string name="second_degree_trinomial_expansion">İkinci Derece Trinom Açılımı</string>
+        //x and y
+        <string name="z">z</string>
+
+    //Difference of Two Squares Expansion
+    <string name="factorisation_of_difference_of_two_squares">İki Kare Farkını Çarpanlara Ayırma</string>
+        //x and y
+
+    //Sum of Two Cubes Expansion
+    <string name="factorisation_of_difference_of_two_cubes">İki Küp Farkı Çarpanlara Ayırma</string>
+        //x and y
+
+    //Sum of Two Cubes Expansion
+    <string name="factorisation_of_sum_of_two_cubes">İki Küp Toplamı Çarpanlara Ayırma</string>
+        //x and y
+
+    //Factoring Sum of xⁿ + yⁿ
+    <string name="factorisation_of_sum_of_xn_and_yn">xⁿ + yⁿ Toplamını Çarpanlara Ayırma</string>
+        //n
+        //x and y
+
+    //Factoring Difference of xⁿ - yⁿ
+    <string name="factorisation_of_difference_of_xn_and_yn">xⁿ - yⁿ Farkını Çarpanlara Ayırma</string>
+        //n
+        //x and y
+
+    //Binomial Expansions
+    <string name="binomial_expansions">Binom Açılımlar</string>
+        //n
+        //x and y
+
+    //interior angle of a regular polygon
+    <string name="interior_angle_of_regular_polygon">Düzgün Çokgenin Bir İç Açı Ölçüsü</string>
+        <string name="interior_angle">A: İç Açı</string>
+        //number of sides
+
+    //An Exterior Angle of Regular Polygon Formula
+    <string name="exterior_angle_of_regular_polygon">Düzgün Çokgenin Bir Dış Açı Ölçüsü</string>
+        <string name="exterior_angle">A: Exterior Angle</string>
+        //num of sides
+
+    //area of regular polygon
+    <string name="area_of_regular_polygon">Düzgün Çokgenin Alanı</string>
+        //area
+        <string name="radius_of_inscribed_circle">r: İç Teğet Çemberinin Yarıçapı</string>
+        <string name="length_of_one_side">L: Bir Kenarın Uzunluğu</string>
+        //number of sides
+
+    //Area of Trapezoid
+    <string name="area_of_trapezoid_formula">Yamuğun Alan Formülü</string>
+        //area
+        <string name="base1">a: Taban 1</string>
+        <string name="base2">b: Taban 2</string>
+        //height
+
+    //Area of Parallelogram Formula
+    <string name="area_of_parallelogram_formula">Paralelkenarın Alan Formülü</string>
+        //area
+        <string name="side">a: Kenar</string>
+        //height
+
+    //area of square formula
+    <string name="area_of_square_formula">Karenin Alan Formülü</string>
+        //area
+        //side
+
+    //Length of Space Diagonal in Rectangular Prism Formula
+    <string name="length_of_space_diagonal_in_rectangular_prism_formula">Dikdörtgen Prizmadaki Cisim Koşegeninin Uzunluğu Formülü</string>
+        //length
+        //side123
+
+    //Volume of Cube Formula
+    <string name="volume_of_cube_formula">Kübün Hacim Formülü</string>
+        //volume
+        //side
+
+    //Surface area of cube
+    <string name="surface_area_of_cube_formula">Kübün Yüzey Alan Formülü</string>
+        //surface area
+        //side
+
+    //Surface area of Cylinder
+    <string name="surface_area_of_cylinder_formula">Silindirin Yüzey Alan Formülü</string>
+        //surface area
+        //radius
+        //height
+
+    //height of regular tetrahedron formula
+    <string name="height_of_regular_tetrahedron_formula">Düzgün Dörtyüzlünün Yükseklik Formülü</string>
+        //height
+        //side
+
+    //surface area of regular tetrahedron formula
+    <string name="surface_area_of_regular_tetrahedron_formula">Düzgün Dörtyüzlünün Yüzey Alan Formülü</string>
+        //area
+        //side
+
+    //volume of regular tetrahedron formula
+    <string name="volume_of_regular_tetrahedron_formula">Düzgün Dörtyüzlünün Hacim Formülü</string>
+        //volume
+        //side
+
+    //Radian - Degree Converter
+    <string name="radian_degree_converter">Radyan - Derece Dönüştürücü</string>
+        <string name="radian_value">R: Radyan Değeri</string>
+        <string name="degree_value">D: Derece Değeri</string>
+
+    //principal angle finder
+    <string name="principal_angle_finder">Principal Angle Finder</string>
+        //angle
+
+    //Distance Between Two Points on the Analytical Plane Formula
+    <string name="distance_between_two_points_on_the_analytical_plane_formula">Analitik Duzlemde İki Nokta Arasındaki Uzaklık Formülü</string>
+        //distance
+        <string name="x_coordinate1">x₁: x Kordinatı 1</string>
+        <string name="x_coordinate2">x₂: x Kordinatı 2</string>
+        <string name="y_coordinate1">y₁: y Kordinatı 1</string>
+        <string name="y_coordinate2">y₂: y Kordinatı 2</string>
+
+    //Coordinates of the Midpoint of a Line Segment Formula
+    <string name="coordinates_of_the_midpoint_of_a_line_segment_formula">Bir Doğru Parçasının Orta Noktasının Koordinatları Formülü</string>
+        //xy12
+
+    //Coordinates of the Centroid of a Triangle Formula
+    <string name="coordinates_of_the_centroid_of_a_triangle_formula">Bir Üçgenin Ağırlık Merkezinin Koordinatları Formülü</string>
+        //xy12
+        <string name="x_coordinate3">x₃: x Kordinatı 3</string>
+        <string name="y_coordinate3">y₃: y Kordinatı 3</string>
+
+    //Average Rate of Change Formula
+    <string name="average_rate_of_change_formula">Ortalama Değişim Hızı Formülü</string>
+        <string name="average_rate_of_change">m: Ortalama Değişim Hızı</string>
+        <string name="function_result1">f(b)</string>
+        <string name="function_result2">f(a)</string>
+        <string name="a">a</string>
+        <string name="b">b</string>
+
+    //Exponential Function Formula
+    <string name="exponential_function_formula">Üstel Fonksiyon Formülü</string>
+        <string name="fn">f(n)</string>
+        //a and n
+
+    //Logarithm Formula
+    <string name="logarithm_formula">Logaritma Formülü</string>
+        //y
+        //a
+        //x
+
+    //Natural Logarithm Formula
+    <string name="natural_logarithm_formula">Natural Logarithm Formula</string>
+        //y
+        //x
+
+    //n-th Term of an Arithmetic Sequence Formula
+    <string name="nth_term_of_an_arithmetic_sequence_formula">Aritmetik Dizideki n. Terim Formülü</string>
+        //ar
+        //a1
+        //r
+        <string name="common_difference">d: Ortak Fark</string>
+
+    //Sum of the Members of an Arithmetic Sequence Formula
+    <string name="sum_of_the_members_of_an_arithmetic_sequence_formula">Aritmetik Dizi Elemanların Toplam Formülü</string>
+        <string name="sum_of_sequence_members">S_n: Dizi Elemanlarının Toplamı</string>
+        <string name="index_of_last_term">n: Son Terimin İndeksi</string>
+        <string name="first_term">a₁: İlk Terim</string>
+        <string name="nth_term">a_n: n. Terim</string>
+
+    //n-th Term of a Geometric Sequence Formula
+    <string name="nth_term_of_a_geometric_sequence_formula">Geometrik Dizideki n. Terim Formülü</string>
+        //a_n
+        //a1
+        //n
+        <string name="common_ratio">r: Ortak Çarpan</string>
+
+    //Sum of the Members of a Geometric Sequence Formula
+    <string name="sum_of_the_members_of_a_geometric_sequence_formula">Geometrik Dizi Elemanların Toplam Formülü</string>
+        //Sn
+        //r
+        //n
+        //a1
+
+    //Product of the Members of a Geometric Sequence Formula
+    <string name="product_of_the_members_of_a_geometric_sequence_formula">Geometrik Dizi Elemanların Çarpım Formülü</string>
+        <string name="product_of_sequence_members">P_n: Dizi Elemanlarının Çarpımı</string>
+        //r
+        //n
+        //a1
+
+    //Fibonacci Sequence Starting From 1 Term Finder
+    <string name="fibonacci_sequence_starting_from_1_term_finder">1den Başlayan Fibonacci Dizisi İçin Terim Bulucu</string>
+        <string name="wanted_term">n: İstenen Terim</string>
+
+    //nth Power of i Calculator
+    <string name="nth_power_of_i_calculator">i\'nin n. Kuvveti Bulucu</string>
+        //n
+
+    //Rotation of a Point Around Origin Formula
+    <string name="rotation_of_a_point_around_origin_formula">Bir Noktanın Orijin Etrafında Döndürme Formülü</string>
+        //x,y
+        <string name="rotation_angle">α: Dönüş Açısı</string>
+
+    //Reflection Across x-Axis Formula
+    <string name="reflection_across_x_axis_formula">x Eksenine Göre Yansıma Formülü</string>
+        //x y
+
+    //Reflection Across y-Axis Formula
+    <string name="reflection_across_y_axis_formula">y Eksenine Göre Yansıma Formülü</string>
+        //x y
+
+    //Reflection Across y = x Formula
+    <string name="reflection_across_yx_formula">y = x Doğrusuna Göre Yansıma Formülü</string>
+        //x y
+
+    //Reflection Across y = -x Formula
+    <string name="reflection_across_y_minusx_formula">y = -x Doğrusuna Göre Yansıma Formülü</string>
+        //x y
+
+    //Reflection Across x = a Formula
+    <string name="reflection_across_xa_formula">x = a Doğrusuna Göre Yansıma Formülü</string>
+        //x y  a
+
+    //Reflection Across y = a Formula
+    <string name="reflection_across_ya_formula">y = a Doğrusuna Göre Yansıma Formülü</string>
+        //x y  a
+
+    //Reflection Over Origin Formula
+    <string name="reflection_over_origin_formula">Orijine Göre Yansıma Formülü</string>
+        //x y
+
+    //Reflection of a Line Across x-Axis Formula
+    <string name="reflection_of_a_line_across_x_axis_formula">Bir Doğrunun x Eksenine Göre Yansıma Formülü</string>
+        <string name="c">c</string>
+        // a b
+
+    //Reflection of a Line Across y-Axis Formula
+    <string name="reflection_of_a_line_across_y_axis_formula">Bir Doğrunun y Eksenine Göre Yansıma Formülü</string>
+        //a b c
+
+    //Reflection of a Line Across y = x Formula
+    <string name="reflection_of_a_line_across_yx_formula">Bir Doğrunun y = x Doğrusuna Göre Yansıma Formülü</string>
+        //a b c
+
+    //Reflection of a Line Across y = -x Formula
+    <string name="reflection_of_a_line_across_y_minusx_formula">Bir Doğrunun y = -x Doğrusuna Göre Yansıma Formülü</string>
+        //a b c
+
+    //Reflection of a Line Across x = d Formula
+    <string name="reflection_of_a_line_across_xd_formula">Bir Doğrunun x = d Doğrusuna Göre Yansıma Formülü</string>
+        //a b c
+        <string name="d">d</string>
+
+    //Reflection of a Line Across y = e Formula
+    <string name="reflection_of_a_line_across_ye_formula">Bir Doğrunun y = e Doğrusuna Göre Yansıma Formülü</string>
+        //a b c
+        <string name="e">e</string>
+
+    //Reflection of a Line Over Origin Formula
+    <string name="reflection_of_a_line_over_origin_formula">Bir Doğrunun Orijine Göre Yansıma Formülü</string>
+        //a b c
+
+
+
+
+
+    //chemistry formulas
+
+    //Ideal Gas Formula
+    <string name="ideal_gas_law">İdeal Gaz Yasası</string>
+        <string name="pressure">P: Basınç</string>
+        <string name="volume">V: Hacim</string>
+        <string name="number_of_moles">n: Mol Sayısı</string>
+        <string name="temperature">T: Sıcaklık</string>
+
+    //Kinetic Energy of Gas
+    <string name="kinetic_energy_of_gas">Gazların Kinetik Enerjisi</string>
+        //kinetic energy
+        <string name="absolute_tempetarute">T: Mutlak Sıcaklık</string>
+
+    //Velocity of Gas Particles
+    <string name="velocity_of_gas_particles">Gaz Moleküllerinin Hızları</string>
+        //velocity
+        //absolute temperature
+        <string name="mass_of_a_mole_of_the_gas">M: Gazın 1 mol\'ünün Kütlesi</string>
+
+    //Ideal Gas Law 2
+    <string name="ideal_gas_law2">İdeal Gaz Yasası 2</string>
+        <string name="molar_mass">Mₐ: Mol Kütlesi</string>
+        //pressure
+        //density
+        //temperature
+
+    //Boyle's Law
+    <string name="boyles_law">Boyle Yasası</string>
+        <string name="pressure1">P₁: İlk Basınç</string>
+        <string name="pressure2">P₂: Son Basınç</string>
+        <string name="volume1">V₁: İlk Hacim</string>
+        <string name="volume2">V₂: Son Hacim</string>
+
+    //Charles's Law
+    <string name="charless_law">Charles Yasası</string>
+        <string name="temperature1">T₁: İlk Sıcaklık</string>
+        <string name="temperature2">T₂: Son Sıcaklık</string>
+        //vol1
+        //vol2
+
+    //Gay-Lussac's Law
+    <string name="gay_lussacs_law">Gay-Lussac Yasası</string>
+        //pres and temp 12
+
+    //Avogadro's Law
+    <string name="avogadros_law">Avogadro Yasası</string>
+        <string name="number_of_moles1">n₁: İlk Mol Sayısı</string>
+        <string name="number_of_moles2">n₂: Son Mol Sayısı</string>
+        //vol 12
+
+    //Number of Moles Formula
+    <string name="number_of_moles_formula">Mol Sayısı Formülü</string>
+        //number of moles
+        <string name="number_of_particles">N: Tanecik Sayısı</string>
+
+    //Number of Moles Formula 2
+    <string name="number_of_moles_formula2">Mol Sayısı Formülü 2</string>
+        //number of moles
+        //mass
+        //molar mass
+
+    //Atomic Mass Formula
+    <string name="atomic_mass_formula">Atom Kütlesi Formülü</string>
+        <string name="atomic_mass">M: Atom Kütlesi</string>
+        //molar mass
+
+    //Number of Moles for Gases Under Normal Conditions
+    <string name="number_of_moles_formula_for_gases_under_normal_conditions">Normal Koşullar Altında Gazlar İçin Mol Sayısı Formülü</string>
+        //num moles
+        //vol
+
+    //Mass Percent Composition Formula
+    <string name="mass_percent_composition_formula">Kütlece Yüzde Derişim Formülü</string>
+        <string name="mass_percent_composition">MPC: Kütlece Yüzde Derişim</string>
+        <string name="solute_mass">m: Çözünen Maddenin Kütlesi</string>
+        <string name="total_mixture_mass">M: Çözelti Kütlesi</string>
+
+    //Volume Percent Concentration Formula
+    <string name="volume_percent_composition_formula">Hacimce Yüzde Derişim Formülü</string>
+        <string name="volume_percent_composition">VPC: Hacimce Yüzde Derişim</string>
+        <string name="solute_volume">V: Çözünen Maddenin Hacmi</string>        //bunun dogruluguna bak
+        <string name="total_mixture_volume">V_total: Çözelti Hacmi</string>
+
+    //ppm Formula
+    <string name="ppm_formula">ppm Formülü</string>
+        <string name="ppm">ppm</string>
+        //solute mass
+        //micture mass
+
+    //ppb Formula
+    <string name="ppb_formula">ppb Formülü</string>
+        <string name="ppb">ppb</string>
+        //solute mass
+        //micture mass
+
+    //average kinetic energy formula of gas molecules
+    <string name="average_kinetic_energy_formula_of_gas_molecules">Gaz Moleküllerinin Ortalama Kinetik Enerji Formülü</string>
+        //kinetic e
+        //temp
+
+    //Graham's Law of Diffusion
+    <string name="grahams_law_of_diffusion">Graham Difüzyon Yasası</string>
+        <string name="diffusion_rate1">v₁: Ortalama Yayılma Hızı</string>
+        <string name="diffusion_rate2">v₂: Ortalama Yayılma Hızı</string>
+        <string name="molar_mass1">Mₐ₁: Mol Kütlesi</string>
+        <string name="molar_mass2">Mₐ₂: Mol Kütlesi</string>
+
+    //Average Velocity of Gas Molecules Formula
+    <string name="average_velocity_of_gas_molecules_formula">Gaz Moleküllerinin Ortalama Hız Formülü</string>
+        <string name="average_velocity">v: Ortalama Hız</string>
+        //temperature
+        //molar mass
+
+    //Diffusion Rate Equation
+    <string name="diffusion_rate_equation">Difüzyon Hız Eşitliği</string>
+        //dif rate 12
+        //molmass 12
+        <string name="temperaturex">T₁: Sıcaklık</string>
+        <string name="temperaturey">T₂: Sıcaklık</string>
+
+    //Partial Pressure Formula
+    <string name="partial_pressure_formula">Kısmi Basınç Formülü</string>
+        <string name="partial_pressure">Pᵢ: Kısmi Basınç</string>
+        <string name="total_pressure">P_total: Toplam Basınç</string>
+        <string name="mole_number_of_wanted_gas">nᵢ: Istenilen Gazın Mol Sayısı</string>
+        <string name="total_mole_number">n_total: Toplam Mol Sayısı</string>
+
+    //Molarity formula
+    <string name="molarity_formula">Molarite Formülü</string>
+        <string name="molarity">M: Molarite</string>
+        //mole number of solute
+        <string name="volume_of_solvent">V: Çözücünün Hacmi</string>
+
+    //Molality Formula
+    <string name="molality_formula">Molalite Formülü</string>
+        <string name="molality">m: Molalite</string>
+        <string name="mole_number_of_solute">n: Çözünen Maddenin Mol Sayısı</string>
+        <string name="mass_of_solvent">M: Çözücünün Kütlesi</string>
+
+    //Change of Concentration Equation
+    <string name="change_of_concentration_equation">Deriştirme – Seyreltme Denklemi</string>
+        <string name="molarity1">M₁: İlk Molarite</string>
+        <string name="molarity2">M₂: Son Molarite</string>
+        //initial volume
+        //final volume
+
+    //Molarity Formula 2
+    <string name="molarity_formula2">Molarite Formülü 2</string>
+        //molarity
+        //density
+        //mpc
+        <string name="molar_mass_of_solute">Mₐ: Çözünen Maddenin Mol Kütlesi</string>
+
+    //Boiling Point Elevation Formula
+    <string name="boiling_point_elevation_formula">Kaynama Noktası Yükselmesi Formülü</string>
+        <string name="boiling_point_elevation">ΔT: Kaynama Noktası Yükseliş Miktarı</string>
+        <string name="ebullioscopic_constant">K_b: Ebüliyoskopik Sabit</string>
+        //molality
+        <string name="number_of_particles_ions">i: Tanecik (İon) Sayısı</string>
+
+    //Freezing Point Depression Formula
+    <string name="freezing_point_depression_formula">Donma Noktası Alçalması Formülü</string>
+        <string name="freezing_point_depression">ΔT: Donma Noktası Alçalış Miktarı</string>
+        <string name="cryoscopic_constant">K_f: Kriyoskopik Sabit</string>
+        //molality
+        //particle ion number
+
+    //Enthalpy Change Formula
+    <string name="enthalpy_formula">Entalpi Formülü</string>
+        <string name="enthalpy">ΔH°: Entalpi</string>
+        <string name="sum_of_standard_formation_enthalpies_product">∑ΔH°(p): Ürünlerin Standart Oluşum Entalpileri Toplamı</string>
+        <string name="sum_of_standard_formation_enthalpies_reactants">∑ΔH°(r): Girenlerin Standart Oluşum Entalpileri Toplamı</string>
+
+    //Enthalpy Formula 2
+    <string name="enthalpy_formula2">Entalpi Formülü 2</string>
+        //enthalpy
+        <string name="energies_of_bonds_broken">∑H°(bb): Kırılan Bağ Enerjileri</string>
+        <string name="energies_of_bonds_formed">∑H°(bf): Oluşan Bağ Enerjileri</string>
+
+
+    //Reaction Rate Formula
+    <string name="reaction_rate_formula">Reaksiyon Hızı Formülü</string>
+        <string name="reaction_rate">v: Reaksiyon Hızı</string>
+        <string name="change_in_mass">Δm: Kütledeki Değişim</string>
+        //change in time
+
+    //Reaction Rate Formula 2
+    <string name="reaction_rate_formula2">Reaksiyon Hızı Formülü (Sabit Hacim)</string>
+        //reaction rate
+        <string name="change_in_partial_pressure">ΔP: Kısmi Basınçtaki Değişim</string>
+        //change in time
+
+    //Relationship Between Equilibrium Constants
+    <string name="relationship_between_equilibrium_constants">Denge Sabitleri Arasındaki İlişki</string>
+        <string name="equilibrium_constant_for_partial_pressure">K_p: Kısmi Basınç Cinsinden Denge Sabiti</string>
+        <string name="equilibrium_constant_for_concentration">K_c: Derişim Cinsinden Denge Sabiti</string>
+        //temperature
+        <string name="difference_in_mole_number_of_gaseous_products_and_reactants">Δn: Ürünler ve Girenler Arasındaki Mol Sayısı Farkı (Ü-G)</string>
+
+    //Ernst equation
+    <string name="nernst_equation">Nernst Eşitliği</string>
+        <string name="cell_potential">E: Hücre Potansiyeli</string>
+        <string name="standard_cell_potential">E⁰: Standart Hücre Potansiyeli</string>
+        //mole number
+        <string name="equilibrium_constantq">Q: Denge Sabiti</string>
+
+    //Mass of the Produced Substance During Electrolysis Formula
+    <string name="mass_of_produced_substance_during_electrolysis_formula">Elektroliz Sırasında Açığa Çıkan Maddenin Kütlesi Formülü</string>
+        //mass
+        //current
+        //time
+        <string name="molar_mass_of_substance">Mₐ: Maddenin Mol Kütlesi</string>
+        <string name="number_of_electrons_exchanged">n: Alınan - Verilen Elektron Sayısı</string>
+
+
+
+
+
+
+
+
+
+
+    //physics formulas
+
+    //Kinetic Energy Formula
+    <string name="kinetic_energy_formula">Kinetik Enerji Formülü</string>
+        <string name="mass">m: Kütle</string>
+        <string name="velocity">v: Hız</string>
+        <string name="kinetic_energy">E: Kinetik Enerji</string>
+
+    //Gravitational Potential Energy
+    <string name="gravitational_potential_energy">Çekim Potansiyel Enerjisi</string>
+        //mass
+        <string name="gravitational_acceleration">g: Yerçekimi İvmesi</string>
+        //height
+        <string name="potential_energy">E: Potansiyel Enerji</string>
+
+    //Elastic Potential Energy
+    <string name="elastic_potential_energy">Esneklik Potansiyel Enerjisi</string>
+        <string name="spring_constant">k: Yay Sabiti</string>
+        <string name="amount_of_compression">Δx: Sıkıştırma Miktarı</string>
+        //potential energy
+
+    //Force Formula
+    <string name="force_formula">Kuvvet Formülü</string>
+        <string name="force">F: Kuvvet</string>
+        //mass
+        <string name="acceleration">a: İvme</string>
+
+    //Work Formula
+    <string name="work_formula">İş Formülü</string>
+        <string name="work">W: İş</string>
+        //force
+        <string name="displacement">Δx: Yer Değiştirme</string>
+        <string name="angle_between_d_and_f">𝜃: d ve F Arasındaki Açı</string>
+
+    //Power Formula
+    <string name="power_formula">Güç Formülü</string>
+        <string name="power">P: Güç</string>
+        <string name="energy">E: Enerji</string>
+        <string name="time">t: Zaman</string>
+
+    //Ohm's law
+    <string name="ohms_law">Ohm Yasası</string>
+        <string name="current">I: Akım</string>
+        <string name="voltage">V: Potansiyel Fark</string>
+        <string name="resistance">R: Direnç</string>
+
+    //Electrical Power Formula
+    <string name="electric_power_formula">Elektriksel Güç Formülü</string>
+        //power
+        //current
+        //voltage
+
+    //Electric Current Formula
+    <string name="electric_current_formula">Elektriksel Akım Formülü</string>
+        //current
+        <string name="electric_charge">q: Elektriksel Yük</string>
+        //time
+
+    //Electric Field Formula
+    <string name="electric_field_formula">Elektriksel Alan Formülü</string>
+        <string name="electric_field">E: Elektriksel Alan</string>
+        <string name="electric_force">F: Elektriksel Kuvvet</string>
+        //charge
+
+    //Coulomb's Law
+    <string name="coulombs_law">Coulomb Yasası</string>
+        <string name="electrostatic_force">F: Elektrostatik Kuvvet</string>
+        <string name="electric_charge1">q₁: Elektrik Yükü 1</string>
+        <string name="electric_charge2">q₂: Elektrik Yükü 2</string>
+        <string name="distance">d: Uzaklık</string>
+
+    //Electric Potential Energy
+    <string name="electric_potential_energy">Elektriksel Potansiyel Enerji</string>
+        //charge 1
+        //charge 2
+        //distance
+
+    //Electric Field Formula 2
+    <string name="electric_field_formula2">Elektriksel Alan Formülü 2</string>
+        //charge
+        //distance
+
+    //Capacitance Formula
+    <string name="capacitance_formula">Sığa Förmülü</string>
+        <string name="capacitance">C: Sığa</string>
+        //charge
+        //voltage
+
+    //Pressure Formula
+    <string name="pressure_of_solids">Katı Basıncı</string>
+        //pressure
+        //force
+        //surface area
+
+    //Pressure of Liquids
+    <string name="pressure_of_liquids">Sıvı Basıncı</string>
+        //height
+        <string name="density">d: Yoğunluk</string>
+        //gravitational acceleration
+
+    //Electric Power Formula
+    <string name="electric_power_formula2">Elektriksel Güç Formülü 2</string>
+
+    //Resistance of a Conductor
+    <string name="resistance_of_conductor">Bir İletkenin Direnci</string>
+        //resistance
+        <string name="electrical_resistivity">ρ: Elektrik Özdirenç</string>
+        //length
+        <string name="cross_sectional_area">A: Kesit Alanı</string>
+
+    //Electric Potential Energy
+    <string name="electric_potential_formula">Elektriksel Potensiyel Formülü</string>
+        //potential
+        //charge
+        //distance
+
+    //electric field between two charged plates
+    <string name="electric_field_between_two_charged_plates">Yüklü Levhalar Arasındaki Elektrik Alan</string>
+        //electric field
+        //Voltage
+        //distance
+
+    //force between two charged plates
+    <string name="force_between_two_charged_plates">Yüklü Levhalar Arasındaki Kuvvet</string>
+        //force
+        //charge
+        //voltage
+        //distance
+
+    //Acceleration Between Two Charged Plates
+    <string name="acceleration_between_two_charged_plates">Yüklü Levhalar Arasındaki İvme</string>
+        //acceleration
+        //charge
+        //voltage
+        //mass
+        //distance
+
+    //Transformer Equation
+    <string name="transformer_equation">Transformatör Eşitliği</string>
+        <string name="primary_voltage">V₁: Birincil Gerilim</string>
+        <string name="secondary_voltage">V₂: İkincil Gerilim</string>
+        <string name="number_of_turns_in_the_primary">N₁: Birincil Sarım Sayısı</string>
+        <string name="number_of_turns_in_the_secondary">N₂: İkincil Sarım Sayısı</string>
+
+    //Magnetic Field of Straight Wires
+    <string name="magnetic_field_of_straight_wires">Düz Telin Manyetik Alanı</string>
+        <string name="magnetic_field">B: Manyetik Alan</string>
+        //current
+        //distance
+
+    //Magnetic Field of Current Loops
+    <string name="magnetic_field_of_current_loops">Halka Telin Manyetik Alanı</string>
+        //magnetic field
+        //current
+        //radius
+        <string name="number_of_turns">N: Sarım Sayısı</string>
+
+    //Magnetic Field of Solenoids
+    <string name="magnetic_field_of_solenoids">Selonoidin Manyetik Alanı</string>
+        //magnetic field
+        //current
+        <string name="length_of_solenoid">l: Selonoidin Uzunluğu</string>
+        //n of turns
+
+    //Magnetic Force of Current-Carrying Wires
+    <string name="magnetic_force_of_current_carrying_wires">Magnetic Force of Current-Carrying Wires</string>
+        //force
+        //magnetic field
+        //current
+        //length
+        <string name="angle_between_l_and_b">θ: B ve L Arasındaki Açı</string>
+
+    //Lorentz Force Formula
+    <string name="lorentz_force_formula">Lorentz Kuvveti Formülü</string>
+        //force
+        //charge
+        //velocity
+        //magnetic field
+
+    //Manyetik Alanda Hareket Eden Yükün Yörünge Yarıçapı
+    //Radius of Orbit of a Charge in Magnetic Field
+    <string name="radius_of_orbit_of_a_charge_in_magnetic_field">Manyetik Alanda Hareket Eden Yükün Yörünge Yarıçapı</string>
+        //radius
+        //mass
+        //velocity
+        //charge
+        //magnetic field
+
+    //Magnetic Flux Formula
+    <string name="magnetic_flux_formula">Manyetik Akı Formülü</string>
+        <string name="magnetic_flux">Φ: Manyetik Akı</string>
+        //magnetic field
+        //surface area
+        <string name="angle_between_a_and_b">θ: B ve Yüzey Normali Arasındaki Açı</string>
+
+    //Electromagnetic Induction Formula
+    <string name="electromagnetic_induction_formula">Elektromanyetik İndüksiyon Formülü</string>
+        <string name="electromotive_force">EMF: Elektromotor Kuvveti</string>
+        <string name="change_in_magnetic_flux">∆Φ: Manyetik Akıdakı Değişim</string>
+        <string name="change_in_time">∆t: Zamandaki Değişim</string>
+
+    //Self-Induction EMF Formula
+    <string name="self_induction_emf_formula">Özindüksiyon EMK Formülü</string>
+        <string name="inductance">L: İndüktans</string>
+        <string name="change_in_current">∆I: Akımdakı Değişim</string>
+        //change in time
+
+    //Peak Electromotive Force in a Generator
+    <string name="peak_electromotive_force_in_a_generator">Jeneratörde Maksimum Elektromotor Kuvveti</string>
+        //emf
+        //number of turns
+        //magnetic field
+        <string name="area_of_the_coil">A: Bobinin Alanı</string>
+        <string name="angular_velocity">ω: Açısal Hız</string>
+        <string name="angle_between_b_and_normal_of_coil_plane">θ: B ve Bobin Düzleminin Normali Arasındakı Açı</string>
+
+    //Relative Motion Formula
+    <string name="relative_motion_formula">Bağıl Hareket Formülü</string>
+        <string name="relative_velocity">vᵣ: Bağıl Hız</string>
+        <string name="observed_velocity">v₂: Gözlenen Hızı</string>
+        <string name="observer_velocity">v₁: Gözlemci Hızı</string>
+
+    //Velocity Formula
+    <string name="velocity_formula">Hız Formülü</string>
+        //velo
+        //displacement
+        //time
+
+    //Acceleration Formula
+    <string name="acceleration_formula">İvme Formülü</string>
+        //acc
+        //velo
+        //time
+
+    //Accelerated Motion Formula
+    <string name="accelerated_motion_formula">İvmeli Hareket Formülü</string>
+        //displacement
+        <string name="initial_velocity">v₀: Başlangıç Hızı</string>
+        //time
+        //acceleration
+
+    //Heat Formula
+    <string name="heat_formula">Isı Formülü</string>
+        <string name="heat">Q: Isı</string>
+        //mass
+        <string name="heat_capacity">c: Öz Isı</string>
+        <string name="change_in_temperature">ΔT: Sıcaklık Değişimi</string>
+
+    //Heat of Transformation
+    <string name="heat_of_transformation_formula">Hal Değiştirme Isısı Formülü</string>
+        <string name="heat_of_transformation">L: Hal Değiştirme Isısı</string>
+        //heat
+        //mass
+
+    //Hookes Law
+    <string name="hookes_law">Hooke Yasası</string>
+        //force
+        <string name="distancex">x: Uzaklık</string>
+        //spring Constant
+
+    //Linear Velocity Formula (Circular Motion)
+    <string name="linear_velocity_formula">Çizgisel Hız Formülü (Çembersel Hareket)</string>
+        //velo
+        //radius
+        <string name="frequency">f: Frekans</string>
+
+    //Linear Velocity Formula 2 (Circular Motion)
+    <string name="linear_velocity_formula_2">Linear Velocity Formula 2 (Çembersel Hareket)</string>
+        //velo
+        //radius
+        //angular velo
+
+    //Angular Velocity Formula
+    <string name="angular_velocity_formula">Açısal Hız Formülü</string>
+        //angular velo
+        //frequency
+
+    //Centripetal Force Formula
+    <string name="centripetal_force_formula">Merkezcil Kuvvet Formülü</string>
+        //force
+        //mass
+        //radius
+        //angular velo
+
+    //Centripetal Force Formula
+    <string name="centripetal_force_formula_2">Merkezcil Kuvvet Formülü 2</string>
+        //force
+        //mass
+        //radius
+        //velo
+
+    //Centripetal Acceleration Formula
+    <string name="centripetal_acceleration_formula">Merkezcil İvme Formülü</string>
+        //acc
+        //radius
+        //angular velo
+
+    //Centripetal Acceleration Formula
+    <string name="centripetal_acceleration_formula_2">Merkezcil İvme Formülü 2</string>
+        //acc
+        //radius
+        //velo
+
+    //Minimum Velocity of an Object Rotating Inside a Cylinder
+    <string name="min_velo_of_an_object_rotating_in_a_cylinder">Silindir İçinde Dönen Cismin Minimum Hızı</string>
+        <string name="minimum_velocity">v_min: Minimum Hız</string>
+        //gra acc
+        //radius
+        <string name="coefficent_of_friction">k: Sürtünme Katsayısı</string>
+
+    //Velocity of Waves
+    <string name="velocity_of_waves_formula">Dalgaların Hız Formülü</string>
+        //velo
+        <string name="wavelength">λ: Dalga Boyu</string>
+        //freq
+
+    //Luminous Flux Formula
+    <string name="luminous_flux_formula">Işık Akısı Formülü (Noktasal Kaynak)</string>
+        <string name="luminous_flux">Φ: Işık Akısı</string>
+        <string name="luminous_intensity">I: Işık Şiddeti</string>
+
+    //Illuminance Formula
+    <string name="illuminance_formula">Aydınlanma Şiddeti Formülü</string>
+        <string name="illuminance">E: Aydınlanma Şiddeti</string>
+        //Luminous Intensity
+        //Radius
+
+    //Velocity During Simple Harmonic Motion
+    <string name="velocity_during_simple_harmonic_motion">Basit Harmonik Hareket Sırasındaki Hız</string>
+        //velo
+        //radius
+        <string name="oscillation">x: Salınım</string>
+
+    //Horizontal Velocity During Simple Harmonic Motion
+    <string name="horizontal_velocity_during_simple_harmonic_motion">Basit Harmonik Hareket Sırasındaki Yatay Hız</string>
+        <string name="horizontal_velocity">v_x: Yatay Hız</string>
+        //angular velo
+        //radius
+        //time
+
+    //Horizontal Velocity During Simple Harmonic Motion
+    <string name="vertical_velocity_during_simple_harmonic_motion">Basit Harmonik Hareket Sırasındaki Düşey Hız</string>
+        <string name="vertical_velocity">v_y: Düşey Hız</string>
+        //angular velo
+        //radius
+        //time
+
+    //Horizontal Velocity During Simple Harmonic Motion
+    <string name="horizontal_velocity_during_simple_harmonic_motion2">Basit Harmonik Hareket Sırasındaki Yatay Hız 2</string>
+        //hori velo
+        //angular velo
+        //radius
+        <string name="angle">θ: Açı</string>
+
+    //Vertical Velocity During Simple Harmonic Motion 2
+    <string name="vertical_velocity_during_simple_harmonic_motion2">Basit Harmonik Hareket Sırasındaki Düşey Hız 2</string>
+        //vertical velo
+        //angular velo
+        //radius
+        //angle
+
+    //horizontal location During Simple Harmonic Motion
+    <string name="horizontal_location_during_simple_harmonic_motion">Basit Harmonik Hareket Sırasındaki Yatay Konum</string>
+        <string name="horizontal_location">x: Yatay Konum</string>
+        //radius
+        //angular velocity
+        //time
+
+    //Vertical location During Simple Harmonic Motion
+    <string name="vertical_location_during_simple_harmonic_motion">Basit Harmonik Hareket Sırasındaki Düşey Konum</string>
+        <string name="vertical_location">y: Düşey Konum</string>
+        //radius
+        //angular velocity
+        //time
+
+    //horizontal location During Simple Harmonic Motion2
+    <string name="horizontal_location_during_simple_harmonic_motion2">Basit Harmonik Hareket Sırasındaki Yatay Konum 2</string>
+        //horizontal loc
+        //radius
+        //angle
+
+    //Vertical location During Simple Harmonic Motion2
+    <string name="vertical_location_during_simple_harmonic_motion2">Basit Harmonik Hareket Sırasındaki Düşey Konum 2</string>
+        //vertical loc
+        //radius
+        //angle
+
+    //horizontal acceleration During Simple Harmonic Motion
+    <string name="horizontal_acceleration_during_simple_harmonic_motion">Basit Harmonik Hareket Sırasındaki Yatay İvme</string>
+        <string name="horizontal_acceleration">a_x: Yatay İvme</string>
+        //angular velocity
+        //radius
+        //time
+
+    //Vertical acceleration During Simple Harmonic Motion
+    <string name="vertical_acceleration_during_simple_harmonic_motion">Basit Harmonik Hareket Sırasındaki Düşey İvme</string>
+        <string name="vertical_acceleration">a_y: Düşey İvme</string>
+        //angular velocity
+        //radius
+        //time
+
+    //horizontal acceleration During Simple Harmonic Motion
+    <string name="horizontal_acceleration_during_simple_harmonic_motion2">Basit Harmonik Hareket Sırasındaki Yatay İvme 2</string>
+        //hori acc
+        //angular velocity
+        //radius
+        //angle
+
+    //Vertical acceleration During Simple Harmonic Motion
+    <string name="vertical_acceleration_during_simple_harmonic_motion2">Basit Harmonik Hareket Sırasındaki Düşey İvme 2</string>
+        //vert acc
+        //angular velocity
+        //radius
+        //angle
+
+    //horizontal Restoring Force During Simple Harmonic Motion
+    <string name="horizontal_restoring_force_during_simple_harmonic_motion">Basit Harmonik Hareket Sırasındaki Yatay Geri Çağırıcı Kuvvet</string>
+        //mass
+        //angular velocity
+        //radius
+        //time
+
+    //Vertical acceleration During Simple Harmonic Motion
+    <string name="vertical_restoring_force_during_simple_harmonic_motion">Basit Harmonik Hareket Sırasındaki Düşey Geri Çağırıcı Kuvvet</string>
+        //mass
+        //angular velocity
+        //radius
+        //time
+
+    //horizontal Restoring Force During Simple Harmonic Motion 2
+    <string name="horizontal_restoring_force_during_simple_harmonic_motion2">Basit Harmonik Hareket Sırasındaki Yatay Geri Çağırıcı Kuvvet 2</string>
+        <string name="horizontal_restoring_force">F_x: Yatay Geri Çağırıcı Kuvvet</string>
+        //mass
+        //angular velocity
+        //radius
+        //angle
+
+    //Vertical acceleration During Simple Harmonic Motion 2
+    <string name="vertical_restoring_force_during_simple_harmonic_motion2">Basit Harmonik Hareket Sırasındaki Düşey Geri Çağırıcı Kuvvet 2</string>
+        <string name="vertical_restoring_force">F_y: Düşey Geri Çağırıcı Kuvvet</string>
+        //mass
+        //angular velocity
+        //radius
+        //angle
+
+    //Period of Spring Pendulum During Simple Harmonic Motion
+    <string name="period_of_spring_pendulum_during_simple_harmonic_motion">Basit Harmonik Hareket Sırasında Yay Sarkacın Periyodu</string>
+        <string name="period">T: Periyot</string>
+        //mass
+        //spring constant
+
+    //Period of Simple Pendulum During Simple Harmonic Motion
+    <string name="period_of_simple_pendulum_during_simple_harmonic_motion">Basit Harmonik Hareket Sırasında Basit Sarkacın Periyodu</string>
+        //period
+        <string name="length_of_rope">L: İpin Uzunluğu</string>
+        //gra acc
+
+    //maximum safe speed an object can take on a frictional turn
+    <string name="maximum_safe_speed_an_object_can_take_on_a_frictional_turn">Yatay Sürtünmeli Virajda Giden Objenin Güvenli Dönüş Yaparken Maksimum Hızı</string>
+        <string name="maximum_velocity">v_max: Maksimum Hız</string>
+        //friction co
+        //gra acc
+        //radius
+
+    //Safe Speed During Turning on an Inclined and Frictionless Turn
+    <string name="safe_speed_during_turning_on_an_inclined_and_frictionless_turn">Eğimli ve Sürtünmesiz Virajda Güvenli Dönüş Yapan Objenin Hızı</string>
+        //velo
+        //gra acc
+        //radius
+        <string name="slope_angle">θ: Eğim Açısı</string>
+
+    //Safe Speed During Turning in Cylinder
+    <string name="safe_speed_during_turning_in_a_cylinder">Silindir İçinde Dönen Objenin Hızı</string>
+        //velo
+        //gra acc
+        //radius
+        //fric co
+
+    //moment of inertia Formula
+    <string name="moment_of_inertia_formula">Eylemsizlik Momenti Formülü</string>
+        <string name="moment_of_inertia">I: Eylemsizlik Momenti</string>
+        <string name="angular_momentum">L: Açısal Momentum</string>
+        //ang velo
+
+    //moment of inertia of Spheres
+    <string name="moment_of_inertia_of_solid_spheres">İçi Dolu Küreler İçin Eylemsizlik Momenti</string>
+        //moment of inertia
+        //mass
+        //radius
+
+    //moment of inertia of Cylinders
+    <string name="moment_of_inertia_of_solid_cylinders">İçi Dolu Silindirler İçin Eylemsizlik Momenti</string>
+        //moment of inertia
+        //mass
+        //radius
+
+    //moment of inertia of disks
+    <string name="moment_of_inertia_of_disks">Diskler İçin Eylemsizlik Momenti</string>
+        //moment of inertia
+        //mass
+        //radius
+
+    //moment of inertia of rings
+    <string name="moment_of_inertia_of_rings">Halkalar İçin Eylemsizlik Momenti</string>
+        //moment of inertia
+        //mass
+        //radius
+
+    //moment of inertia of rods
+    <string name="moment_of_inertia_of_rods">Çubuklar İçin Eylemsizlik Momenti</string>
+        //moment of inertia
+        //mass
+        <string name="length_of_rod">L: Çubuğun Uzunluğu</string>
+
+    //Rotational Kinetic Energy
+    <string name="rotational_kinetic_energy_formula">Dönme Kinetik Enerjisi Formülü</string>
+        //energy
+        //moment of inertia
+        //angular velo
+
+    //kinetic energy of a rotating object
+    <string name="kinetic_energy_of_a_rotating_object">Kinetic Energy of a Rotating Object</string>
+        //energy
+        //mass
+        <string name="linear_velocity">v: Linear Velocity</string>
+        //moment of ine
+        //ang velo
+
+    //angular momentum Formula
+    <string name="angular_momentum_formula">Açısal Momentum Formülü</string>
+        // angular mo
+        <string name="linear_momentum">P: Çizgisel Momentum</string>
+        //radius
+
+    //angular momentum Formula 2
+    <string name="angular_momentum_formula2">Açısal Momentum Formülü 2</string>
+        // angular mo
+        //mass
+        //velo
+        //radius
+
+    //angular momentum Formula 3
+    <string name="angular_momentum_formula3">Açısal Momentum Formülü 3</string>
+        // angular mo
+        //mom ine
+        //ang velo
+
+    //Torque Formula
+    <string name="torque_formula">Tork Formülü</string>
+        <string name="torque">τ: Tork</string>
+        //radius
+        //force
+        <string name="angle_between_force_and_radius">α: Kuvvet ve Yarıçap Arasındaki Açı</string>
+
+    //Torque  2
+    <string name="torque_formula2">Tork Formülü 2</string>
+        //torque
+        //radius
+        //force
+
+    //Tangential acceleration formula
+    <string name="tangential_acceleration_formula">Teğetsel İvme Formülü</string>
+        <string name="tangential_acceleration">a_t: Teğetsel İvme</string>
+        //radius
+        <string name="angular_acceleration">α: Açısal İvme</string>
+
+    //gravitational force formula
+    <string name="gravitational_force_formula">Kütle Çekim Kuvveti Formülü</string>
+        //force
+        <string name="mass1">m₁: Kütle 1</string>
+        <string name="mass2">m₂: Kütle 2</string>
+        <string name="distance_between_objects">d: Objeler Arasındaki Mesafe</string>
+
+    //gravitational acceleration Formula (Above the Surface)
+    <string name="gravitational_acceleration_formula_above_surface">Kütle Çekim İvmesi Formülü (Yüzeyin Üzerinde)</string>
+        //gra acc
+        <string name="mass_of_the_planet">M: Gezegenin Kütlesi</string>
+        <string name="distance_between_planet_and_object">d: Gezegen ve Cisim Arasındaki Mesafe</string>
+
+    //gravitational acceleration formula (inside the planet)
+    <string name="gravitational_acceleration_formula_inside_planet">Kütle Çekim İvmesi Formülü (Gezegenin İçinde)</string>
+        //gra acc
+        <string name="distance_between_object_and_planet_r">r: Gezegen ve Cisim Arasındaki Mesafe</string>
+        <string name="density_of_the_planet">d: Gezegenin Yoğunluğu</string>
+
+    //Potential energy of a satellite in orbit
+    <string name="gravitational_potential_energy_of_an_orbiting_satellite">Yörüngedeki Uydunun Çekim Potansiyel Enerjisi</string>
+        //mass of planet
+        <string name="mass_of_satellite">m: Uydunun Kütlesi</string>
+        <string name="orbit_radius">r: Yörünge Yarıçapı</string>
+
+    //Escape Velocity Formula
+    <string name="escape_velocity_formula">Kurtulma Hızı Formülü</string>
+        //velo
+        //mass of planet
+        //distance bet obj n pla
+
+    //Escape energy Formula
+    <string name="escape_energy_formula">Kurtulma Enerjisi Formülü</string>
+        //m pl
+        <string name="mass_of_object">m: Cismin Kütlesi</string>
+        //distance
+
+    //Law of Periods
+    <string name="law_of_periods">Periyotlar Yasası</string>
+        <string name="period1">T₁: Periyot</string>
+        <string name="period2">T₂: Periyot</string>
+        <string name="average_radius1">R₁: Ortalama Yarıçap</string>
+        <string name="average_radius2">R₂: Ortalama Yarıçap</string>
+
+    //Fringe Spacing Formula (Double Slit)
+    <string name="fringe_spacing_formula_double_slit">Çift Yarıkta Saçak Aralığı Formülü</string>
+        <string name="fringe_spacing">Δx: Saçak Aralığı</string>
+        <string name="distance_between_slits">d: Yarıklar Arasındaki Mesafe</string>
+        <string name="refractive_index">n: Kırılma İndisi</string>
+        //wavelength
+        <string name="distance_between_screen_and_slits">L: Ekran ve Yarıklar Arasındaki Mesafe</string>
+
+    //Fringe Spacing Formula (Single Slit)
+    <string name="fringe_spacing_formula_single_slit">Tek Yarıkta Saçak Aralığı Formülü</string>
+        <string name="distance_between_screen_and_slit">L: Ekran ve Yarık Arasındaki Mesafe</string>
+        //wavelength
+        <string name="width_of_slit">w: Yarık Genişliği</string>
+        //refractive index
+
+    //Angular Momentum of an Orbiting Electron (Bohr)
+    <string name="angular_momentum_of_an_orbiting_electron">Yörüngede Dolanan Elektronun Açısal Momentumu (Bohr)</string>
+        //angular momentum
+        <string name="number_representing_the_orbit">n: Yörünge Numarası</string>
+
+    //Orbiting Radius of an Electron
+    <string name="orbiting_radius_of_an_electron">Elektronun Yörünge Yarıçapı</string>
+        //radius
+        //orbit no
+        <string name="atomic_number">Z: Atom Numarası</string>
+
+    //energy of Electron in Bohr Orbits
+    <string name="energy_of_electron_in_bohr_orbit">Bohr Yörüngelerinde Elektronun Enerjisi</string>
+        // energy
+        // atomic no
+        // orbit no
+
+    //Energy Stored in Capacitor
+    <string name="energy_stored_in_capacitor">Sığaçta Depolanan Enerji</string>
+        //energy
+        //e charge
+        //voltage
+
+    //Energy Stored in Capacitor
+    <string name="energy_stored_in_capacitor2">Sığaçta Depolanan Enerji 2</string>
+        //energy
+        //e charge
+        //voltage
+
+    //Capacitor Formula
+    <string name="capacitance_of_capacitor_formula">Sığaç Kapasitansı Formülü</string>
+        //capacitance
+        <string name="dielectric_constant">ε: Dielektrik Sabiti</string>
+        <string name="area_of_the_plates">A: Plakaların Alanı</string>
+        <string name="distance_between_the_plates">d: Plakalar Arasındaki Mesafe</string>
+
+    //Torque of a Current Carrying Loop in Magnetic Field
+    <string name="torque_of_a_current_carrying_loop_in_magnetic_field">Akım Geçen Çerçevenin Manyetik Alandaki Torku</string>
+        //torque
+        //number of turns
+        //magnetic field
+        //current
+        <string name="area_of_the_loop">A: Çerçevenin Alanı</string>
+
+    //Root Mean Square Voltage Formula (Arbitrary Waveform)
+    <string name="root_mean_square_voltage_formula_sinusoidal_waveform">Etkin Gerilim Formülü (Sinüs Dalga Formu)</string>
+        <string name="root_mean_square_voltage">V_rms: Etkin Gerilim</string>
+        <string name="peak_voltage">V_peak: Maksimum Gerilim</string>
+
+    //Root Mean Square Voltage Formula (Triangle Waveform)
+    <string name="root_mean_square_voltage_formula_triangle_waveform">Etkin Gerilim Formülü (Üçgen Dalga Formu)</string>
+
+    //Root Mean Square Voltage Formula (Square Waveform)
+    <string name="root_mean_square_voltage_formula_square_waveform">Etkin Gerilim Formülü (Kare Dalga Formu)</string>
+
+    //Root Mean Square Current Formula (Sinusoidal Waveform)
+    <string name="root_mean_square_current_formula_sinusoidal_waveform">Etkin Akım Formülü (Sinüs Dalga Formu)</string>
+        <string name="root_mean_square_current">I_rms: Etkin Akım</string>
+        <string name="peak_current">I_peak: Maksimum Akım</string>
+
+    //Root Mean Square Current Formula (Triangle Waveform)
+    <string name="root_mean_square_current_formula_triangle_waveform">Root Akım Square Current Formula (Triangle Waveform)</string>
+
+    //Root Mean Square Current Formula (Square Waveform)
+    <string name="root_mean_square_current_formula_square_waveform">Root Akım Square Current Formula (Square Waveform)</string>
+
+    //Efficiency Formula
+    <string name="efficiency_formula">Verimlilik Formülü</string>
+        <string name="efficiency">E: Verimlilik</string>
+        <string name="input">I: Giriş</string>
+        <string name="output">O: Çıkış</string>
+
+    <string name="weight_formula">Ağırlık Formülü</string>
+        <string name="weight">G: Ağırlık</string>
+        //mass
+        //gra acc
+
+    //Friction Force Formula
+    <string name="friction_force_formula">Sürtünme Kuvveti Formülü</string>
+        <string name="friction_force">F: Sürtünme Kuvveti</string>
+        <string name="normal_force">N: Normal Kuvveti</string>
+
+    //Velocity Formula (Without Time)
+    <string name="velocity_formula_without_time">Zamansız Hız Formülü</string>
+        <string name="final_velocity">v: Son Hız</string>
+
+    //Downward Projectile Motion Height Formula
+    <string name="downward_projectile_motion_height_formula">Aşağı Doğru Atış Hareketi Yükseklik Formülü</string>
+        //height
+        // init velo
+        //time
+        //gra acc
+
+    //Upward Projectile Motion Height Formula
+    <string name="upward_projectile_motion_height_formula">Yukarı Doğru Atış Hareketi Yükseklik Formülü</string>
+        //height
+        // init velo
+        //time
+        //gra acc
+
+    //Downward Projectile Motion Velocity Formula
+    <string name="downward_projectile_motion_velocity_formula">Aşağı Doğru Atış Hareketi Hız Formülü</string>
+        //velo
+        // init velo
+        //time
+        // gra acc
+
+    //Upward Projectile Motion Velocity Formula
+    <string name="upward_projectile_motion_velocity_formula">Yukarı Doğru Atış Hareketi Hız Formülü</string>
+        //velo
+        // init velo
+        //time
+        // gra acc
+
+    //Upward Projectile Motion Flight Time Formula
+    <string name="upward_projectile_motion_flight_time_formula">Yukarı Doğru Atış Hareketi Uçuş Zamanı Formülü</string>
+        <string name="flight_time">t: Uçuş Zamanı</string>
+        // init velo
+        // gra acc
+
+    //Upward Projectile Motion Maximum Height Formula
+    <string name="upward_projectile_motion_maximum_height_formula">Yukarı Doğru Atış Hareketi Maksimum Yükseklik Formülü</string>
+        <string name="maximum_height">h_max: Maksimum Yükseklik</string>
+        // init velo
+        // gra acc
+
+    //Free Fall Height Formula
+    <string name="free_fall_height_formula">Serbest Düşme Yükseklik Formülü</string>
+        //height
+        //gra acc
+        //time
+
+    //Free Fall Vertical Velocity Formula
+    <string name="free_fall_vertical_velocity_formula">Serbest Düşme Düşey Hız Formülü Formülü</string>
+        //velo
+        //gra acc
+        //time
+
+    //Free Fall Vertical Velocity Formula (Without Time)
+    <string name="free_fall_velocity_formula_without_time">Serbest Düşme Zamansız Düşey Hız Formülü Formülü</string>
+        //velo
+        //gra acc
+        //height
+
+    //Impulse Formula
+    <string name="impulse_formula">İtme Formülü</string>
+        <string name="impulse">I: İtme</string>
+        //force
+        //change in time
+
+    //Momentum Formula
+    <string name="momentum_formula">Momentum Formülü</string>
+        <string name="momentum">P: Momentum</string>
+        //masss
+        //velo
+
+    //Central Elastic Collision Velocities Formula
+    <string name="central_elastic_collision_velocities_equation">Merkezi Esnek Çarpışma Hız Eşitliği</string>
+        <string name="initial_velocity1">v₁\': İlk Hız 1</string>
+        <string name="initial_velocity2">v₂\': İlk Hız 2</string>
+        <string name="final_velocity1">v₁\': Son Hız 1</string>
+        <string name="final_velocity2">v₂\': Son Hız 2</string>
+
+    //Screw Equation
+    <string name="screw_equation">Vida Eşitliği</string>
+        <string name="applied_force">F: Uygulanan Kuvvet</string>
+        <string name="radius_of_rotation_arm">b: Dönme Kolunun Yarıçapı</string>
+        <string name="screw_thread_height">a: Vida Adımı Yüksekliği</string>
+        <string name="resistive_force">R: Direnç Kuvveti</string>
+
+    //Illuminance Formula 2
+    <string name="illuminance_formula2">Aydınlanma Şiddeti Formülü</string>
+        //illuminance
+        //flux
+        //area
+
+    //Number of Images (Intersecting Mirrors)
+    <string name="number_of_images_formula_intersecting_mirrors">Kesişen Aynalarda Oluşan Görüntü Sayısı Formülü</string>
+        <string name="number_of_images">n: Görüntü Sayısı</string>
+        <string name="angle_between_mirrors">α: Aynalar Arasındaki Açı</string>
+
+    //absolute refractive index formula
+    <string name="absolute_refractive_index_formula">Mutlak Kırılma İndisi Formülü</string>
+        <string name="speed_of_light_in_the_medium">v: Işığın Ortamdaki Hızı</string>
+        //ref ix
+
+    //Kaldirma Kuvveti
+    <string name="buoyant_force_formula">Kaldırma Kuvveti Formülü</string>
+        <string name="buoyant_force">F: Kaldırma Kuvveti</string>
+        <string name="density_of_liquid_gas">d: Gazın/Sıvının Yoğunluğu</string>
+        //gra acc
+        <string name="sinking_volume_of_object">V: Cismin Batan Hacmi</string>
+
+    //Electrical Energy Formula
+    <string name="electric_energy_formula">Elektriksel Enerji Formülü</string>
+        //energy
+        //change
+        //voltage
+
+    //Total Work Done Formula
+    <string name="total_work_done_formula">Yapılan Toplam İş Formülü</string>
+        //work
+        //power
+        //time
+
+    //Fahrenheit - Celsius Converter
+    <string name="fahrenheit_celsius_converter">Fahrenheit - Celsius Çevirici</string>
+        <string name="temperature_celsius">T_c: Sıcaklık (Celsius)</string>
+        <string name="temperature_fahrenheit">T_f: Sıcaklık (Fahrenheit)</string>
+
+    //Heat Conduction Rate Formula
+    <string name="heat_conduction_rate_formula">Isı İletim Hızı Formülü</string>
+        <string name="heat_conduction_rate">ΔQ/Δt: Isı İletim Hızı</string>
+        <string name="thermal_conductivity">k: Termal İletkenlik</string>
+        //surface area
+        //change in temp
+        <string name="distance_in_transmission_direction">x: İletim Doğrultusundaki Mesafe</string>
+
+    //Expansion Formula
+    <string name="linear_expansion_formula">Doğrusal Genleşme Formülü</string>
+        <string name="change_in_length">ΔL: Uzunluktaki Değişim</string>
+        <string name="coefficient_of_linear_expansion">λ: Lineer Genleşme Kaysayısı</string>
+        <string name="initial_length">L₀: İlk Uzunluk</string>
+        //temp change
+
+    //Area Expansion Formula
+    <string name="superficial_expansion_formula">Yüzeysel Genleşme Formülü</string>
+        <string name="change_in_area">ΔA: Alandaki Değişim</string>
+        <string name="initial_area">A₀: İlk Alan</string>
+        <string name="coefficient_of_superficial_expansion">γ: Yüzeysel Genleşme Katsayısı</string>
+
+    //Volume Expansion Formula
+    <string name="volumetric_expansion_formula">Hacim Genleşme Formülü</string>
+        <string name="change_in_volume">ΔV: Hacimdeki Değişim</string>
+        <string name="initial_volume">V₀: İlk Hacim</string>
+        <string name="coefficient_of_volumetric_expansion">β: Hacimsel Genleşme Kaysayısı</string>
+
+
+
+
+</resources>
