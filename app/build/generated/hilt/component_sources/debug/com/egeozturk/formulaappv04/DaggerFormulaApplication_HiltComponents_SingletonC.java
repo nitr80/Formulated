@@ -28,6 +28,8 @@ import com.egeozturk.formulaappv04.viewmodel.HomeScreenViewModel;
 import com.egeozturk.formulaappv04.viewmodel.HomeScreenViewModel_HiltModules_KeyModule_ProvideFactory;
 import com.egeozturk.formulaappv04.viewmodel.ListScreenViewModel;
 import com.egeozturk.formulaappv04.viewmodel.ListScreenViewModel_HiltModules_KeyModule_ProvideFactory;
+import com.google.common.collect.ImmutableMap;
+import com.google.common.collect.ImmutableSet;
 import dagger.hilt.android.ActivityRetainedLifecycle;
 import dagger.hilt.android.ViewModelLifecycle;
 import dagger.hilt.android.flags.HiltWrapper_FragmentGetContextFix_FragmentGetContextFixModule;
@@ -45,10 +47,7 @@ import dagger.hilt.android.internal.modules.ApplicationContextModule;
 import dagger.hilt.android.internal.modules.ApplicationContextModule_ProvideContextFactory;
 import dagger.internal.DaggerGenerated;
 import dagger.internal.DoubleCheck;
-import dagger.internal.MapBuilder;
 import dagger.internal.Preconditions;
-import dagger.internal.SetBuilder;
-import java.util.Collections;
 import java.util.Map;
 import java.util.Set;
 import javax.inject.Provider;
@@ -387,7 +386,7 @@ public final class DaggerFormulaApplication_HiltComponents_SingletonC {
 
     @Override
     public Set<String> getViewModelKeys() {
-      return SetBuilder.<String>newSetBuilder(5).add(CalculatorScreenViewModel_HiltModules_KeyModule_ProvideFactory.provide()).add(FormulaListInListScreenViewModel_HiltModules_KeyModule_ProvideFactory.provide()).add(FormulaScreenViewModel_HiltModules_KeyModule_ProvideFactory.provide()).add(HomeScreenViewModel_HiltModules_KeyModule_ProvideFactory.provide()).add(ListScreenViewModel_HiltModules_KeyModule_ProvideFactory.provide()).build();
+      return ImmutableSet.<String>of(CalculatorScreenViewModel_HiltModules_KeyModule_ProvideFactory.provide(), FormulaListInListScreenViewModel_HiltModules_KeyModule_ProvideFactory.provide(), FormulaScreenViewModel_HiltModules_KeyModule_ProvideFactory.provide(), HomeScreenViewModel_HiltModules_KeyModule_ProvideFactory.provide(), ListScreenViewModel_HiltModules_KeyModule_ProvideFactory.provide());
     }
 
     @Override
@@ -445,7 +444,7 @@ public final class DaggerFormulaApplication_HiltComponents_SingletonC {
 
     @Override
     public Map<String, Provider<ViewModel>> getHiltViewModelMap() {
-      return MapBuilder.<String, Provider<ViewModel>>newMapBuilder(5).put("com.egeozturk.formulaappv04.viewmodel.CalculatorScreenViewModel", ((Provider) calculatorScreenViewModelProvider)).put("com.egeozturk.formulaappv04.viewmodel.FormulaListInListScreenViewModel", ((Provider) formulaListInListScreenViewModelProvider)).put("com.egeozturk.formulaappv04.viewmodel.FormulaScreenViewModel", ((Provider) formulaScreenViewModelProvider)).put("com.egeozturk.formulaappv04.viewmodel.HomeScreenViewModel", ((Provider) homeScreenViewModelProvider)).put("com.egeozturk.formulaappv04.viewmodel.ListScreenViewModel", ((Provider) listScreenViewModelProvider)).build();
+      return ImmutableMap.<String, Provider<ViewModel>>of("com.egeozturk.formulaappv04.viewmodel.CalculatorScreenViewModel", ((Provider) calculatorScreenViewModelProvider), "com.egeozturk.formulaappv04.viewmodel.FormulaListInListScreenViewModel", ((Provider) formulaListInListScreenViewModelProvider), "com.egeozturk.formulaappv04.viewmodel.FormulaScreenViewModel", ((Provider) formulaScreenViewModelProvider), "com.egeozturk.formulaappv04.viewmodel.HomeScreenViewModel", ((Provider) homeScreenViewModelProvider), "com.egeozturk.formulaappv04.viewmodel.ListScreenViewModel", ((Provider) listScreenViewModelProvider));
     }
 
     private static final class SwitchingProvider<T> implements Provider<T> {
@@ -597,7 +596,7 @@ public final class DaggerFormulaApplication_HiltComponents_SingletonC {
 
     @Override
     public Set<Boolean> getDisableFragmentGetContextFix() {
-      return Collections.<Boolean>emptySet();
+      return ImmutableSet.<Boolean>of();
     }
 
     @Override

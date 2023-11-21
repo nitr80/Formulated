@@ -21,6 +21,8 @@ import com.egeozturk.formulaappv04.bottom_bar_and_navi.BottomBarMain
 import com.egeozturk.formulaappv04.ui.theme.FormulaAppv04Theme
 import com.egeozturk.formulaappv04.ui.theme.Shapes
 import com.google.accompanist.systemuicontroller.rememberSystemUiController
+import com.google.android.gms.ads.MobileAds
+import com.google.android.gms.ads.RequestConfiguration
 import dagger.hilt.android.AndroidEntryPoint
 
 @AndroidEntryPoint
@@ -28,6 +30,12 @@ class MainActivity : ComponentActivity() {
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
+
+        MobileAds.initialize(this) {}
+        MobileAds.setRequestConfiguration(
+            RequestConfiguration.Builder().setTestDeviceIds(listOf("ABCDEF012345")).build()
+        )
+
         val isFirstTime = this.getPreferences(Context.MODE_PRIVATE)
 
         setContent {

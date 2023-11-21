@@ -7,8 +7,14 @@ animator fragment_fade_exit
 animator fragment_open_enter
 animator fragment_open_exit
 attr action
+attr adSize
+attr adSizes
+attr adUnitId
 attr alpha
 attr argType
+attr buttonSize
+attr circleCrop
+attr colorScheme
 attr data
 attr dataPattern
 attr destination
@@ -26,6 +32,8 @@ attr fontStyle
 attr fontVariationSettings
 attr fontWeight
 attr graph
+attr imageAspectRatio
+attr imageAspectRatioAdjust
 attr lStar
 attr launchSingleTop
 attr mimeType
@@ -40,16 +48,36 @@ attr popUpToSaveState
 attr queryPatterns
 attr restoreState
 attr route
+attr scopeUris
 attr shortcutMatchRequired
 attr startDestination
 attr targetPackage
 attr ttcIndex
 attr uri
+bool enable_system_alarm_service_default
+bool enable_system_foreground_service_default
+bool enable_system_job_service_default
+bool workmanager_test_configuration
 color androidx_core_ripple_material_light
 color androidx_core_secondary_text_default_material_light
 color black
+color browser_actions_bg_grey
+color browser_actions_divider_color
+color browser_actions_text_color
+color browser_actions_title_color
 color call_notification_answer_color
 color call_notification_decline_color
+color common_google_signin_btn_text_dark
+color common_google_signin_btn_text_dark_default
+color common_google_signin_btn_text_dark_disabled
+color common_google_signin_btn_text_dark_focused
+color common_google_signin_btn_text_dark_pressed
+color common_google_signin_btn_text_light
+color common_google_signin_btn_text_light_default
+color common_google_signin_btn_text_light_disabled
+color common_google_signin_btn_text_light_focused
+color common_google_signin_btn_text_light_pressed
+color common_google_signin_btn_tint
 color notification_action_color_filter
 color notification_icon_bg_color
 color purple_200
@@ -60,6 +88,8 @@ color teal_700
 color vector_tint_color
 color vector_tint_theme_color
 color white
+dimen browser_actions_context_menu_max_width
+dimen browser_actions_context_menu_min_padding
 dimen compat_button_inset_horizontal_material
 dimen compat_button_inset_vertical_material
 dimen compat_button_padding_horizontal_material
@@ -83,13 +113,36 @@ dimen notification_subtext_size
 dimen notification_top_pad
 dimen notification_top_pad_large_text
 drawable add_icon
+drawable admob_close_button_black_circle_white_cross
+drawable admob_close_button_white_circle_black_cross
 drawable backspace_icon
 drawable calculator_icon_focused
 drawable calculator_icon_unfocused
 drawable cancel_icon
 drawable chemistry_icon
+drawable common_full_open_on_phone
+drawable common_google_signin_btn_icon_dark
+drawable common_google_signin_btn_icon_dark_focused
+drawable common_google_signin_btn_icon_dark_normal
+drawable common_google_signin_btn_icon_dark_normal_background
+drawable common_google_signin_btn_icon_disabled
+drawable common_google_signin_btn_icon_light
+drawable common_google_signin_btn_icon_light_focused
+drawable common_google_signin_btn_icon_light_normal
+drawable common_google_signin_btn_icon_light_normal_background
+drawable common_google_signin_btn_text_dark
+drawable common_google_signin_btn_text_dark_focused
+drawable common_google_signin_btn_text_dark_normal
+drawable common_google_signin_btn_text_dark_normal_background
+drawable common_google_signin_btn_text_disabled
+drawable common_google_signin_btn_text_light
+drawable common_google_signin_btn_text_light_focused
+drawable common_google_signin_btn_text_light_normal
+drawable common_google_signin_btn_text_light_normal_background
 drawable empty_heart_icon
 drawable filled_hearth_icon
+drawable googleg_disabled_color_18
+drawable googleg_standard_color_18
 drawable home_icon_focused
 drawable home_icon_unfocused
 drawable ic_call_answer
@@ -161,25 +214,38 @@ id action_divider
 id action_image
 id action_text
 id actions
+id adjust_height
+id adjust_width
 id androidx_compose_ui_view_composition_context
 id async
+id auto
 id blocking
+id browser_actions_header_text
+id browser_actions_menu_item_icon
+id browser_actions_menu_item_text
+id browser_actions_menu_items
+id browser_actions_menu_view
 id chronometer
 id compose_view_saveable_id_tag
 id consume_window_insets_tag
+id dark
 id dialog_button
 id forever
 id fragment_container_view_tag
 id hide_in_inspector_tag
 id icon
 id icon_group
+id icon_only
 id info
 id inspection_slot_table_set
 id is_pooling_container_tag
 id italic
+id layout
+id light
 id line1
 id line3
 id nav_controller_view_tag
+id none
 id normal
 id notification_background
 id notification_main_column
@@ -189,6 +255,7 @@ id report_drawn
 id right_icon
 id right_side
 id special_effects_controller_view_tag
+id standard
 id tag_accessibility_actions
 id tag_accessibility_clickable_spans
 id tag_accessibility_heading
@@ -211,8 +278,13 @@ id view_tree_on_back_pressed_dispatcher_owner
 id view_tree_saved_state_registry_owner
 id view_tree_view_model_store_owner
 id visible_removing_fragment_view_tag
+id wide
 id wrapped_composition_tag
+integer google_play_services_version
 integer status_bar_notification_info_maxnum
+layout admob_empty_layout
+layout browser_actions_context_menu_page
+layout browser_actions_context_menu_row
 layout custom_dialog
 layout notification_action
 layout notification_action_tombstone
@@ -331,9 +403,28 @@ string coefficient_of_superficial_expansion
 string coefficient_of_volumetric_expansion
 string combination
 string common_difference
+string common_google_play_services_enable_button
+string common_google_play_services_enable_text
+string common_google_play_services_enable_title
+string common_google_play_services_install_button
+string common_google_play_services_install_text
+string common_google_play_services_install_title
+string common_google_play_services_notification_channel_name
+string common_google_play_services_notification_ticker
+string common_google_play_services_unknown_issue
+string common_google_play_services_unsupported_text
+string common_google_play_services_update_button
+string common_google_play_services_update_text
+string common_google_play_services_update_title
+string common_google_play_services_updating_text
+string common_google_play_services_wear_update_text
+string common_open_on_phone
 string common_ratio
+string common_signin_button_text
+string common_signin_button_text_long
 string coordinates_of_the_centroid_of_a_triangle_formula
 string coordinates_of_the_midpoint_of_a_line_segment_formula
+string copy_toast_msg
 string coulombs_law
 string create
 string create_list
@@ -427,6 +518,9 @@ string factorisation_of_difference_of_xn_and_yn
 string factorisation_of_sum_of_two_cubes
 string factorisation_of_sum_of_xn_and_yn
 string fahrenheit_celsius_converter
+string fallback_menu_item_copy_link
+string fallback_menu_item_open_in_browser
+string fallback_menu_item_share_link
 string fibonacci_sequence_starting_from_1_term_finder
 string final_velocity
 string final_velocity1
@@ -593,6 +687,9 @@ string momentum
 string momentum_formula
 string n
 string n_number
+string native_body
+string native_headline
+string native_media_view
 string natural_logarithm_formula
 string navigation_menu
 string nernst_equation
@@ -601,6 +698,9 @@ string normal_force
 string not_a_triange_error
 string not_selected
 string not_triangle
+string notifications_permission_confirm
+string notifications_permission_decline
+string notifications_permission_title
 string nth_power_of_i_calculator
 string nth_term
 string nth_term_of_a_geometric_sequence_formula
@@ -634,6 +734,13 @@ string number_representing_the_orbit
 string observed_velocity
 string observer_velocity
 string off
+string offline_notification_text
+string offline_notification_title
+string offline_opt_in_confirm
+string offline_opt_in_confirmation
+string offline_opt_in_decline
+string offline_opt_in_message
+string offline_opt_in_title
 string ohms_law
 string on
 string orbit_radius
@@ -725,6 +832,13 @@ string roots_of_quadratic_equation
 string rotation_angle
 string rotation_of_a_point_around_origin_formula
 string rotational_kinetic_energy_formula
+string s1
+string s2
+string s3
+string s4
+string s5
+string s6
+string s7
 string safe_speed_during_turning_in_a_cylinder
 string safe_speed_during_turning_on_an_inclined_and_frictionless_turn
 string screw_equation
@@ -841,6 +955,7 @@ string volume_percent_composition
 string volume_percent_composition_formula
 string volumetric_expansion_formula
 string wanted_term
+string watermark_label_prefix
 string wavelength
 string weight
 string weight_formula
@@ -866,9 +981,11 @@ style TextAppearance_Compat_Notification_Line2
 style TextAppearance_Compat_Notification_Time
 style TextAppearance_Compat_Notification_Title
 style Theme_FormulaAppv04
+style Theme_IAPTheme
 style Widget_Compat_NotificationActionContainer
 style Widget_Compat_NotificationActionText
 styleable ActivityNavigator android_name action data dataPattern targetPackage
+styleable AdsAttrs adSize adSizes adUnitId
 styleable Capability queryPatterns shortcutMatchRequired
 styleable ColorStateListItem android_color android_alpha android_lStar alpha lStar
 styleable FontFamily fontProviderAuthority fontProviderCerts fontProviderFetchStrategy fontProviderFetchTimeout fontProviderPackage fontProviderQuery fontProviderSystemFontFamily
@@ -877,6 +994,7 @@ styleable Fragment android_name android_id android_tag
 styleable FragmentContainerView android_name android_tag
 styleable GradientColor android_startColor android_endColor android_type android_centerX android_centerY android_gradientRadius android_tileMode android_centerColor android_startX android_startY android_endX android_endY
 styleable GradientColorItem android_color android_offset
+styleable LoadingImageView circleCrop imageAspectRatio imageAspectRatioAdjust
 styleable NavAction android_id destination enterAnim exitAnim launchSingleTop popEnterAnim popExitAnim popUpTo popUpToInclusive popUpToSaveState restoreState
 styleable NavArgument android_name android_defaultValue argType nullable
 styleable NavDeepLink android_autoVerify action mimeType uri
@@ -884,5 +1002,8 @@ styleable NavGraphNavigator startDestination
 styleable NavHost navGraph
 styleable NavInclude graph
 styleable Navigator android_label android_id route
+styleable SignInButton buttonSize colorScheme scopeUris
 xml backup_rules
 xml data_extraction_rules
+xml gma_ad_services_config
+xml image_share_filepaths

@@ -1,150 +1,150 @@
 [
     {
-        "merged": "com.egeozturk.formulaappv04.app-merged_res-59:/drawable_trash_can_icon.png.flat",
-        "source": "com.egeozturk.formulaappv04.app-main-61:/drawable/trash_can_icon.png"
+        "merged": "com.egeozturk.formulaappv04.app-merged_res-68:/drawable_home_icon_unfocused.png.flat",
+        "source": "com.egeozturk.formulaappv04.app-main-70:/drawable/home_icon_unfocused.png"
     },
     {
-        "merged": "com.egeozturk.formulaappv04.app-merged_res-59:/drawable-v24_ic_launcher_foreground.xml.flat",
-        "source": "com.egeozturk.formulaappv04.app-main-61:/drawable-v24/ic_launcher_foreground.xml"
+        "merged": "com.egeozturk.formulaappv04.app-merged_res-68:/mipmap-xhdpi_ic_launcher.webp.flat",
+        "source": "com.egeozturk.formulaappv04.app-main-70:/mipmap-xhdpi/ic_launcher.webp"
     },
     {
-        "merged": "com.egeozturk.formulaappv04.app-merged_res-59:/drawable_ic_launcher_background.xml.flat",
-        "source": "com.egeozturk.formulaappv04.app-main-61:/drawable/ic_launcher_background.xml"
+        "merged": "com.egeozturk.formulaappv04.app-merged_res-68:/drawable_settings_icon.png.flat",
+        "source": "com.egeozturk.formulaappv04.app-main-70:/drawable/settings_icon.png"
     },
     {
-        "merged": "com.egeozturk.formulaappv04.app-merged_res-59:/mipmap-hdpi_ic_launcher.webp.flat",
-        "source": "com.egeozturk.formulaappv04.app-main-61:/mipmap-hdpi/ic_launcher.webp"
+        "merged": "com.egeozturk.formulaappv04.app-merged_res-68:/drawable_search_button_focused_v2.png.flat",
+        "source": "com.egeozturk.formulaappv04.app-main-70:/drawable/search_button_focused_v2.png"
     },
     {
-        "merged": "com.egeozturk.formulaappv04.app-merged_res-59:/drawable_calculator_icon_focused.png.flat",
-        "source": "com.egeozturk.formulaappv04.app-main-61:/drawable/calculator_icon_focused.png"
+        "merged": "com.egeozturk.formulaappv04.app-merged_res-68:/drawable_calculator_icon_unfocused.png.flat",
+        "source": "com.egeozturk.formulaappv04.app-main-70:/drawable/calculator_icon_unfocused.png"
     },
     {
-        "merged": "com.egeozturk.formulaappv04.app-merged_res-59:/drawable_filled_hearth_icon.png.flat",
-        "source": "com.egeozturk.formulaappv04.app-main-61:/drawable/filled_hearth_icon.png"
+        "merged": "com.egeozturk.formulaappv04.app-merged_res-68:/drawable_search_button_focused.png.flat",
+        "source": "com.egeozturk.formulaappv04.app-main-70:/drawable/search_button_focused.png"
     },
     {
-        "merged": "com.egeozturk.formulaappv04.app-merged_res-59:/mipmap-xxxhdpi_ic_launcher_round.webp.flat",
-        "source": "com.egeozturk.formulaappv04.app-main-61:/mipmap-xxxhdpi/ic_launcher_round.webp"
+        "merged": "com.egeozturk.formulaappv04.app-merged_res-68:/mipmap-hdpi_ic_launcher_round.webp.flat",
+        "source": "com.egeozturk.formulaappv04.app-main-70:/mipmap-hdpi/ic_launcher_round.webp"
     },
     {
-        "merged": "com.egeozturk.formulaappv04.app-merged_res-59:/drawable_cancel_icon.png.flat",
-        "source": "com.egeozturk.formulaappv04.app-main-61:/drawable/cancel_icon.png"
+        "merged": "com.egeozturk.formulaappv04.app-merged_res-68:/drawable_calculator_icon_focused.png.flat",
+        "source": "com.egeozturk.formulaappv04.app-main-70:/drawable/calculator_icon_focused.png"
     },
     {
-        "merged": "com.egeozturk.formulaappv04.app-merged_res-59:/drawable_empty_heart_icon.png.flat",
-        "source": "com.egeozturk.formulaappv04.app-main-61:/drawable/empty_heart_icon.png"
+        "merged": "com.egeozturk.formulaappv04.app-merged_res-68:/mipmap-xxhdpi_ic_launcher_round.webp.flat",
+        "source": "com.egeozturk.formulaappv04.app-main-70:/mipmap-xxhdpi/ic_launcher_round.webp"
     },
     {
-        "merged": "com.egeozturk.formulaappv04.app-merged_res-59:/xml_data_extraction_rules.xml.flat",
-        "source": "com.egeozturk.formulaappv04.app-main-61:/xml/data_extraction_rules.xml"
+        "merged": "com.egeozturk.formulaappv04.app-merged_res-68:/drawable_math_icon.png.flat",
+        "source": "com.egeozturk.formulaappv04.app-main-70:/drawable/math_icon.png"
     },
     {
-        "merged": "com.egeozturk.formulaappv04.app-merged_res-59:/mipmap-xxxhdpi_ic_launcher.webp.flat",
-        "source": "com.egeozturk.formulaappv04.app-main-61:/mipmap-xxxhdpi/ic_launcher.webp"
+        "merged": "com.egeozturk.formulaappv04.app-merged_res-68:/mipmap-hdpi_ic_launcher.webp.flat",
+        "source": "com.egeozturk.formulaappv04.app-main-70:/mipmap-hdpi/ic_launcher.webp"
     },
     {
-        "merged": "com.egeozturk.formulaappv04.app-merged_res-59:/drawable_search_button_focused_v2.png.flat",
-        "source": "com.egeozturk.formulaappv04.app-main-61:/drawable/search_button_focused_v2.png"
+        "merged": "com.egeozturk.formulaappv04.app-merged_res-68:/drawable_ic_launcher_background.xml.flat",
+        "source": "com.egeozturk.formulaappv04.app-main-70:/drawable/ic_launcher_background.xml"
     },
     {
-        "merged": "com.egeozturk.formulaappv04.app-merged_res-59:/drawable_settings_icon.png.flat",
-        "source": "com.egeozturk.formulaappv04.app-main-61:/drawable/settings_icon.png"
+        "merged": "com.egeozturk.formulaappv04.app-merged_res-68:/drawable_infoicon.png.flat",
+        "source": "com.egeozturk.formulaappv04.app-main-70:/drawable/infoicon.png"
     },
     {
-        "merged": "com.egeozturk.formulaappv04.app-merged_res-59:/mipmap-mdpi_ic_launcher_round.webp.flat",
-        "source": "com.egeozturk.formulaappv04.app-main-61:/mipmap-mdpi/ic_launcher_round.webp"
+        "merged": "com.egeozturk.formulaappv04.app-merged_res-68:/mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "com.egeozturk.formulaappv04.app-main-70:/mipmap-anydpi-v26/ic_launcher_round.xml"
     },
     {
-        "merged": "com.egeozturk.formulaappv04.app-merged_res-59:/drawable_list_icon_unfocused.png.flat",
-        "source": "com.egeozturk.formulaappv04.app-main-61:/drawable/list_icon_unfocused.png"
+        "merged": "com.egeozturk.formulaappv04.app-merged_res-68:/drawable_home_icon_focused.png.flat",
+        "source": "com.egeozturk.formulaappv04.app-main-70:/drawable/home_icon_focused.png"
     },
     {
-        "merged": "com.egeozturk.formulaappv04.app-merged_res-59:/drawable_profileicon.png.flat",
-        "source": "com.egeozturk.formulaappv04.app-main-61:/drawable/profileicon.png"
+        "merged": "com.egeozturk.formulaappv04.app-merged_res-68:/drawable_cancel_icon.png.flat",
+        "source": "com.egeozturk.formulaappv04.app-main-70:/drawable/cancel_icon.png"
     },
     {
-        "merged": "com.egeozturk.formulaappv04.app-merged_res-59:/drawable_chemistry_icon.png.flat",
-        "source": "com.egeozturk.formulaappv04.app-main-61:/drawable/chemistry_icon.png"
+        "merged": "com.egeozturk.formulaappv04.app-merged_res-68:/mipmap-xhdpi_ic_launcher_round.webp.flat",
+        "source": "com.egeozturk.formulaappv04.app-main-70:/mipmap-xhdpi/ic_launcher_round.webp"
     },
     {
-        "merged": "com.egeozturk.formulaappv04.app-merged_res-59:/drawable_home_icon_focused.png.flat",
-        "source": "com.egeozturk.formulaappv04.app-main-61:/drawable/home_icon_focused.png"
+        "merged": "com.egeozturk.formulaappv04.app-merged_res-68:/drawable-v24_ic_launcher_foreground.xml.flat",
+        "source": "com.egeozturk.formulaappv04.app-main-70:/drawable-v24/ic_launcher_foreground.xml"
     },
     {
-        "merged": "com.egeozturk.formulaappv04.app-merged_res-59:/drawable_add_icon.png.flat",
-        "source": "com.egeozturk.formulaappv04.app-main-61:/drawable/add_icon.png"
+        "merged": "com.egeozturk.formulaappv04.app-merged_res-68:/drawable_filled_hearth_icon.png.flat",
+        "source": "com.egeozturk.formulaappv04.app-main-70:/drawable/filled_hearth_icon.png"
     },
     {
-        "merged": "com.egeozturk.formulaappv04.app-merged_res-59:/drawable_search_button_focused.png.flat",
-        "source": "com.egeozturk.formulaappv04.app-main-61:/drawable/search_button_focused.png"
+        "merged": "com.egeozturk.formulaappv04.app-merged_res-68:/xml_data_extraction_rules.xml.flat",
+        "source": "com.egeozturk.formulaappv04.app-main-70:/xml/data_extraction_rules.xml"
     },
     {
-        "merged": "com.egeozturk.formulaappv04.app-merged_res-59:/drawable_list_icon_focused.png.flat",
-        "source": "com.egeozturk.formulaappv04.app-main-61:/drawable/list_icon_focused.png"
+        "merged": "com.egeozturk.formulaappv04.app-merged_res-68:/drawable_chemistry_icon.png.flat",
+        "source": "com.egeozturk.formulaappv04.app-main-70:/drawable/chemistry_icon.png"
     },
     {
-        "merged": "com.egeozturk.formulaappv04.app-merged_res-59:/mipmap-xxhdpi_ic_launcher.webp.flat",
-        "source": "com.egeozturk.formulaappv04.app-main-61:/mipmap-xxhdpi/ic_launcher.webp"
+        "merged": "com.egeozturk.formulaappv04.app-merged_res-68:/drawable_physics_icon.png.flat",
+        "source": "com.egeozturk.formulaappv04.app-main-70:/drawable/physics_icon.png"
     },
     {
-        "merged": "com.egeozturk.formulaappv04.app-merged_res-59:/mipmap-hdpi_ic_launcher_round.webp.flat",
-        "source": "com.egeozturk.formulaappv04.app-main-61:/mipmap-hdpi/ic_launcher_round.webp"
+        "merged": "com.egeozturk.formulaappv04.app-merged_res-68:/mipmap-xxhdpi_ic_launcher.webp.flat",
+        "source": "com.egeozturk.formulaappv04.app-main-70:/mipmap-xxhdpi/ic_launcher.webp"
     },
     {
-        "merged": "com.egeozturk.formulaappv04.app-merged_res-59:/drawable_backspace_icon.png.flat",
-        "source": "com.egeozturk.formulaappv04.app-main-61:/drawable/backspace_icon.png"
+        "merged": "com.egeozturk.formulaappv04.app-merged_res-68:/mipmap-mdpi_ic_launcher_round.webp.flat",
+        "source": "com.egeozturk.formulaappv04.app-main-70:/mipmap-mdpi/ic_launcher_round.webp"
     },
     {
-        "merged": "com.egeozturk.formulaappv04.app-merged_res-59:/mipmap-anydpi-v26_ic_launcher.xml.flat",
-        "source": "com.egeozturk.formulaappv04.app-main-61:/mipmap-anydpi-v26/ic_launcher.xml"
+        "merged": "com.egeozturk.formulaappv04.app-merged_res-68:/mipmap-xxxhdpi_ic_launcher_round.webp.flat",
+        "source": "com.egeozturk.formulaappv04.app-main-70:/mipmap-xxxhdpi/ic_launcher_round.webp"
     },
     {
-        "merged": "com.egeozturk.formulaappv04.app-merged_res-59:/xml_backup_rules.xml.flat",
-        "source": "com.egeozturk.formulaappv04.app-main-61:/xml/backup_rules.xml"
+        "merged": "com.egeozturk.formulaappv04.app-merged_res-68:/xml_backup_rules.xml.flat",
+        "source": "com.egeozturk.formulaappv04.app-main-70:/xml/backup_rules.xml"
     },
     {
-        "merged": "com.egeozturk.formulaappv04.app-merged_res-59:/mipmap-xhdpi_ic_launcher_round.webp.flat",
-        "source": "com.egeozturk.formulaappv04.app-main-61:/mipmap-xhdpi/ic_launcher_round.webp"
+        "merged": "com.egeozturk.formulaappv04.app-merged_res-68:/mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "com.egeozturk.formulaappv04.app-main-70:/mipmap-anydpi-v26/ic_launcher.xml"
     },
     {
-        "merged": "com.egeozturk.formulaappv04.app-merged_res-59:/mipmap-mdpi_ic_launcher.webp.flat",
-        "source": "com.egeozturk.formulaappv04.app-main-61:/mipmap-mdpi/ic_launcher.webp"
+        "merged": "com.egeozturk.formulaappv04.app-merged_res-68:/drawable_search_button_unfocused.png.flat",
+        "source": "com.egeozturk.formulaappv04.app-main-70:/drawable/search_button_unfocused.png"
     },
     {
-        "merged": "com.egeozturk.formulaappv04.app-merged_res-59:/mipmap-xhdpi_ic_launcher.webp.flat",
-        "source": "com.egeozturk.formulaappv04.app-main-61:/mipmap-xhdpi/ic_launcher.webp"
+        "merged": "com.egeozturk.formulaappv04.app-merged_res-68:/drawable_backspace_icon.png.flat",
+        "source": "com.egeozturk.formulaappv04.app-main-70:/drawable/backspace_icon.png"
     },
     {
-        "merged": "com.egeozturk.formulaappv04.app-merged_res-59:/drawable_search_button_unfocused.png.flat",
-        "source": "com.egeozturk.formulaappv04.app-main-61:/drawable/search_button_unfocused.png"
+        "merged": "com.egeozturk.formulaappv04.app-merged_res-68:/drawable_profileicon.png.flat",
+        "source": "com.egeozturk.formulaappv04.app-main-70:/drawable/profileicon.png"
     },
     {
-        "merged": "com.egeozturk.formulaappv04.app-merged_res-59:/mipmap-xxhdpi_ic_launcher_round.webp.flat",
-        "source": "com.egeozturk.formulaappv04.app-main-61:/mipmap-xxhdpi/ic_launcher_round.webp"
+        "merged": "com.egeozturk.formulaappv04.app-merged_res-68:/drawable_add_icon.png.flat",
+        "source": "com.egeozturk.formulaappv04.app-main-70:/drawable/add_icon.png"
     },
     {
-        "merged": "com.egeozturk.formulaappv04.app-merged_res-59:/drawable_home_icon_unfocused.png.flat",
-        "source": "com.egeozturk.formulaappv04.app-main-61:/drawable/home_icon_unfocused.png"
+        "merged": "com.egeozturk.formulaappv04.app-merged_res-68:/mipmap-xxxhdpi_ic_launcher.webp.flat",
+        "source": "com.egeozturk.formulaappv04.app-main-70:/mipmap-xxxhdpi/ic_launcher.webp"
     },
     {
-        "merged": "com.egeozturk.formulaappv04.app-merged_res-59:/drawable_calculator_icon_unfocused.png.flat",
-        "source": "com.egeozturk.formulaappv04.app-main-61:/drawable/calculator_icon_unfocused.png"
+        "merged": "com.egeozturk.formulaappv04.app-merged_res-68:/drawable_list_icon_unfocused.png.flat",
+        "source": "com.egeozturk.formulaappv04.app-main-70:/drawable/list_icon_unfocused.png"
     },
     {
-        "merged": "com.egeozturk.formulaappv04.app-merged_res-59:/drawable_physics_icon.png.flat",
-        "source": "com.egeozturk.formulaappv04.app-main-61:/drawable/physics_icon.png"
+        "merged": "com.egeozturk.formulaappv04.app-merged_res-68:/drawable_empty_heart_icon.png.flat",
+        "source": "com.egeozturk.formulaappv04.app-main-70:/drawable/empty_heart_icon.png"
     },
     {
-        "merged": "com.egeozturk.formulaappv04.app-merged_res-59:/mipmap-anydpi-v26_ic_launcher_round.xml.flat",
-        "source": "com.egeozturk.formulaappv04.app-main-61:/mipmap-anydpi-v26/ic_launcher_round.xml"
+        "merged": "com.egeozturk.formulaappv04.app-merged_res-68:/drawable_list_icon_focused.png.flat",
+        "source": "com.egeozturk.formulaappv04.app-main-70:/drawable/list_icon_focused.png"
     },
     {
-        "merged": "com.egeozturk.formulaappv04.app-merged_res-59:/drawable_math_icon.png.flat",
-        "source": "com.egeozturk.formulaappv04.app-main-61:/drawable/math_icon.png"
+        "merged": "com.egeozturk.formulaappv04.app-merged_res-68:/mipmap-mdpi_ic_launcher.webp.flat",
+        "source": "com.egeozturk.formulaappv04.app-main-70:/mipmap-mdpi/ic_launcher.webp"
     },
     {
-        "merged": "com.egeozturk.formulaappv04.app-merged_res-59:/drawable_infoicon.png.flat",
-        "source": "com.egeozturk.formulaappv04.app-main-61:/drawable/infoicon.png"
+        "merged": "com.egeozturk.formulaappv04.app-merged_res-68:/drawable_trash_can_icon.png.flat",
+        "source": "com.egeozturk.formulaappv04.app-main-70:/drawable/trash_can_icon.png"
     }
 ]

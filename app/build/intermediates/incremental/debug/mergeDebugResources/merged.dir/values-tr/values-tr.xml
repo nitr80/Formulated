@@ -108,9 +108,28 @@
     <string name="coefficient_of_volumetric_expansion">β: Hacimsel Genleşme Kaysayısı</string>
     <string name="combination">Kombinasyon</string>
     <string name="common_difference">d: Ortak Fark</string>
+    <string msgid="2523291102206661146" name="common_google_play_services_enable_button">Etkinleştir</string>
+    <string msgid="227660514972886228" name="common_google_play_services_enable_text">Google Play hizmetlerini etkinleştirmezseniz %1$s çalışmaz.</string>
+    <string msgid="5122002158466380389" name="common_google_play_services_enable_title">Google Play hizmetlerini etkinleştirin</string>
+    <string msgid="7153882981874058840" name="common_google_play_services_install_button">Yükle</string>
+    <string name="common_google_play_services_install_text">%1$s, şu anda cihazınızda bulunmayan Google Play hizmetleri olmadan çalışmaz.</string>
+    <string msgid="7215213145546190223" name="common_google_play_services_install_title">Google Play hizmetlerini edinin</string>
+    <string name="common_google_play_services_notification_channel_name">Google Play hizmetlerinin kullanılabilirliği</string>
+    <string name="common_google_play_services_notification_ticker">Google Play Hizmetleri hatası</string>
+    <string name="common_google_play_services_unknown_issue">%1$s, Google Play hizmetleriyle ilgili sorun yaşıyor. Lütfen tekrar deneyin.</string>
+    <string name="common_google_play_services_unsupported_text">%1$s, Google Play hizmetleri olmadan çalışmaz ve bu hizmetler cihazınız tarafından desteklenmiyor.</string>
+    <string msgid="6556509956452265614" name="common_google_play_services_update_button">Güncelle</string>
+    <string msgid="9053896323427875356" name="common_google_play_services_update_text">Google Play hizmetlerini güncellemezseniz %1$s çalışmayacak.</string>
+    <string msgid="6006316683626838685" name="common_google_play_services_update_title">Google Play hizmetlerini güncelleyin</string>
+    <string name="common_google_play_services_updating_text">%1$s, şu anda güncellenmekte olan Google Play hizmetleri olmadan çalışmaz.</string>
+    <string name="common_google_play_services_wear_update_text">Google Play hizmetlerinin yeni sürümü gerekiyor. Kendisini kısa süre içinde güncelleyecektir.</string>
+    <string name="common_open_on_phone">Telefonda aç</string>
     <string name="common_ratio">r: Ortak Çarpan</string>
+    <string name="common_signin_button_text">Oturum aç</string>
+    <string name="common_signin_button_text_long">Google\'da oturum aç</string>
     <string name="coordinates_of_the_centroid_of_a_triangle_formula">Bir Üçgenin Ağırlık Merkezinin Koordinatları Formülü</string>
     <string name="coordinates_of_the_midpoint_of_a_line_segment_formula">Bir Doğru Parçasının Orta Noktasının Koordinatları Formülü</string>
+    <string msgid="3260749812566568062" name="copy_toast_msg">"Bağlantı panoya kopyalandı"</string>
     <string name="coulombs_law">Coulomb Yasası</string>
     <string name="create">Oluştur</string>
     <string name="create_list">Yeni Liste Oluştur</string>
@@ -204,6 +223,9 @@
     <string name="factorisation_of_sum_of_two_cubes">İki Küp Toplamı Çarpanlara Ayırma</string>
     <string name="factorisation_of_sum_of_xn_and_yn">xⁿ + yⁿ Toplamını Çarpanlara Ayırma</string>
     <string name="fahrenheit_celsius_converter">Fahrenheit - Celsius Çevirici</string>
+    <string msgid="4566929209979330987" name="fallback_menu_item_copy_link">"Bağlantıyı kopyala"</string>
+    <string msgid="3413186855122069269" name="fallback_menu_item_open_in_browser">"Tarayıcıda aç"</string>
+    <string msgid="7145444925855055364" name="fallback_menu_item_share_link">"Bağlantıyı paylaş"</string>
     <string name="fibonacci_sequence_starting_from_1_term_finder">1den Başlayan Fibonacci Dizisi İçin Terim Bulucu</string>
     <string name="final_velocity">v: Son Hız</string>
     <string name="final_velocity1">v₁\': Son Hız 1</string>
@@ -370,6 +392,9 @@
     <string name="momentum_formula">Momentum Formülü</string>
     <string name="n">n</string>
     <string name="n_number">n: Sayı</string>
+    <string name="native_body">Metin</string>
+    <string name="native_headline">Başlık</string>
+    <string name="native_media_view">Medya Görünümü</string>
     <string name="natural_logarithm_formula">Natural Logarithm Formula</string>
     <string msgid="542007171693138492" name="navigation_menu">"Gezinme menüsü"</string>
     <string name="nernst_equation">Nernst Eşitliği</string>
@@ -378,6 +403,9 @@
     <string name="not_a_triange_error">Girilen değerler bir üçgen oluşturamaz</string>
     <string msgid="6610465462668679431" name="not_selected">"Seçili değil"</string>
     <string name="not_triangle">Bu değerlerle üçgen oluşturulamaz</string>
+    <string name="notifications_permission_confirm">İzin ver</string>
+    <string name="notifications_permission_decline">İzin verme</string>
+    <string name="notifications_permission_title">Uygulamanın size bildirim göndermesine izin verilsin mi?</string>
     <string name="nth_power_of_i_calculator">i\'nin n. Kuvveti Bulucu</string>
     <string name="nth_term">a_n: n. Terim</string>
     <string name="nth_term_of_a_geometric_sequence_formula">Geometrik Dizideki n. Terim Formülü</string>
@@ -411,6 +439,13 @@
     <string name="observed_velocity">v₂: Gözlenen Hızı</string>
     <string name="observer_velocity">v₁: Gözlemci Hızı</string>
     <string msgid="875452955155264703" name="off">"Kapalı"</string>
+    <string name="offline_notification_text">Reklamı açmak için dokunun</string>
+    <string name="offline_notification_title">Kaydettiğiniz reklamı internet bağlantınız yokken görüntüleyin</string>
+    <string name="offline_opt_in_confirm">Tamam</string>
+    <string name="offline_opt_in_confirmation">İnternete tekrar bağlandığınızda bağlantı içeren bir bildirim alacaksınız</string>
+    <string name="offline_opt_in_decline">Hayır</string>
+    <string name="offline_opt_in_message">Size reklamverenin sitesine bir bağlantının olduğu bildirim göndereceğiz.</string>
+    <string name="offline_opt_in_title">İnternete tekrar bağlandığınızda reklamı açın.</string>
     <string name="ohms_law">Ohm Yasası</string>
     <string msgid="8655164131929253426" name="on">"Açık"</string>
     <string name="orbit_radius">r: Yörünge Yarıçapı</string>
@@ -502,6 +537,13 @@
     <string name="rotation_angle">α: Dönüş Açısı</string>
     <string name="rotation_of_a_point_around_origin_formula">Bir Noktanın Orijin Etrafında Döndürme Formülü</string>
     <string name="rotational_kinetic_energy_formula">Dönme Kinetik Enerjisi Formülü</string>
+    <string name="s1">Resmi kaydet</string>
+    <string name="s2">Reklamın, Resim galerisine resim kaydetmesine izin verilsin mi?</string>
+    <string name="s3">Kabul et</string>
+    <string name="s4">Reddet</string>
+    <string name="s5">Takvim etkinliği oluştur</string>
+    <string name="s6">Reklamın, takvim etkinliği oluşturmasına izin verilsin mi?</string>
+    <string name="s7">Test Reklamı</string>
     <string name="safe_speed_during_turning_in_a_cylinder">Silindir İçinde Dönen Objenin Hızı</string>
     <string name="safe_speed_during_turning_on_an_inclined_and_frictionless_turn">Eğimli ve Sürtünmesiz Virajda Güvenli Dönüş Yapan Objenin Hızı</string>
     <string name="screw_equation">Vida Eşitliği</string>
@@ -618,6 +660,7 @@
     <string name="volume_percent_composition_formula">Hacimce Yüzde Derişim Formülü</string>
     <string name="volumetric_expansion_formula">Hacim Genleşme Formülü</string>
     <string name="wanted_term">n: İstenen Terim</string>
+    <string name="watermark_label_prefix">AdMob - </string>
     <string name="wavelength">λ: Dalga Boyu</string>
     <string name="weight">G: Ağırlık</string>
     <string name="weight_formula">Ağırlık Formülü</string>

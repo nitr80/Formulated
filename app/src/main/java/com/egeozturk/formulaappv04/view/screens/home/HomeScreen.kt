@@ -25,6 +25,7 @@ import com.egeozturk.formulaappv04.R
 import com.egeozturk.formulaappv04.bottom_bar_and_navi.Screen
 import com.egeozturk.formulaappv04.ui.theme.Shapes
 import com.egeozturk.formulaappv04.util.CurrentFormula
+import com.egeozturk.formulaappv04.view.ads.AdmobBanner
 import com.egeozturk.formulaappv04.viewmodel.HomeScreenViewModel
 
 
@@ -121,6 +122,8 @@ fun HomeScreen (navController: NavController, bottomNavHostController: NavHostCo
                 navController = navController,
                 route = Screen.Subscription.route,
             )
+
+            AdmobBanner()
             
             //Spacer(modifier = Modifier.fillMaxSize(.4f))
         }
